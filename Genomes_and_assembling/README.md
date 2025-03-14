@@ -6,4 +6,4 @@ All the accession numbers of publicly available genomes analyzed in this study a
 
 ## New sequenced and assembled *Rickettsia* genomes
 
-Eight metagenomes were sequenced... **POUR MARIE**
+Eight metagenomes from specific tick organs were sequenced... **POUR MARIE**
