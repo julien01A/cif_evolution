@@ -93,5 +93,5 @@ print(combined_plot)
 For the final plot, we can merge the cif operon phylogeny (see the directory part.5) and arrange cifA-cifB according to their phylogenetic placement.
 
 
-## 2. Drawing of RAGE, WO prophage and SMGE rich environments
-First, from the Prokka annotation, database searches in RAGE and WO using OrthoFinder, and blastP (see the directory part.4), we create a table grouping key informations about syntenic gene environments bording cifA-cifB. An example of this table, named `Environment.txt` is provided for three typical environments of cifA-cifB: RAGE, WO prophages and SMGE rich islands.
+## 2. Drawing of RAGE, WO prophage and SMGE-rich environments
+First, using the Prokka annotation, database searches in RAGE and WO with OrthoFinder and blastP (see the directory part.4), we created a table grouping key information about syntenic gene environments bordering cifA-cifB. An example of this table, named `Environment.txt`, is provided for three typical cifA-cifB environments: RAGE, WO prophages, and SMGE-rich islands.
