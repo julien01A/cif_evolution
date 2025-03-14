@@ -1,4 +1,4 @@
-# Genomes and assembling
+# Assembling of new genomes and collection of publicly available genomes
 
 ## Genomes from public database
 
