@@ -1,1 +1,53 @@
+# Phylogenies
 
+## Basic phylogenies
+
+**DESCRIPTION**
+Next, substitution models were evaluated using `modeltest v0.1.7` (<doi:10.1093/molbev/msz189>) to determine the most appropriate ML substitution model (based on the AICc criterion) for phylogenetic tree construction with `raxml-ng v1.1.0` (<doi:10.1093/bioinformatics/btz305>):
+
+```
+modeltest-ng -i ALIGNMENT.faa -p 12 -T raxml -d aa
+
+raxml-ng --all --msa ALIGNMENT.faa --model FLU+G4 --prefix Your_Tree-raxmlng --seed 5 --threads 4 --bs-trees 1000
+raxml-ng --support --tree Your_Tree-raxmlng.raxml.bestTree --bs-trees 1000 --prefix Your_Tree-boot --threads 2
+
+
+```
+
+Finally, the phylogenetic tree was visualized and modified using `figtree` (<https://github.com/rambaut/figtree/>) and `MEGA7` (<https://megasoftware.net/>)
+
+
+## Whole genome phylogenies
+
+**DESCRIPTION**
+First, single-copy orthologs (SCOs) were identified using `OrthoFinder v2.3.11` (<https://github.com/davidemms/OrthoFinder>, doi: <10.1186/s13059-019-1832-y>):
+```
+orthofinder -f ./OrthoFinder_genomes/ -t 4 -S blast 
+```
+with `OrthoFinder_genomes` a directory containing corresponding `.faa` files obtained from Prokka. 
+
+For each SCO, sequences were individually aligned using `MAFFT v7.450` (<https://github.com/GSLBiotech/mafft>, doi: <10.1093/molbev/mst010>):
+```
+for file in /Single_Copy_Orthologue_Sequences/*
+do mafft "$file" > "$file"
+done
+```
+
+For each SCO, ambigious hypervariable regions were removed using `trimAl v1.2rev59` (<https://github.com/inab/trimal>, doi: <10.1093/bioinformatics/btp348>):
+```
+cp ./Single_Copy_Orthologue_Sequences/*_align.fasta ./Single_Copy_Orthologue_Sequences_trimal/
+for file in /Single_Copy_Orthologue_Sequences_trimal/*
+do trimal -in "$file" -out "$file" -fasta -gt 1 -cons 50
+done
+```
+
+Then, all SCO sequences were concatenated using `Amas v1.0` (<https://github.com/marekborowiec/AMAS>, doi: <10.7717/peerj.1660>) in a single file:
+```
+for file in /Single_Copy_Orthologue_Sequences_trimal/*
+do awk '/^>/{print ">organism" ++i; next}{print}' < "$file" > "${file%_align.fasta}_rename.fasta"
+done
+cp ./Single_Copy_Orthologue_Sequences_trimal/*_rename.fasta ./Single_Copy_Orthologue_Sequences_AMAS/
+AMAS.py concat -f fasta -d aa --in-files ./Single_Copy_Orthologue_Sequences_AMAS/*.fasta
+```
+
+The final file produced is used as ALIGNMENT.faa, which is submitted to `modeltest` and `raxml-ng` like the basic phylogenies (see above).
