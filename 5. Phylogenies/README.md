@@ -10,8 +10,6 @@ modeltest-ng -i ALIGNMENT.faa -p 12 -T raxml -d aa
 
 raxml-ng --all --msa ALIGNMENT.faa --model FLU+G4 --prefix Your_Tree-raxmlng --seed 5 --threads 4 --bs-trees 1000
 raxml-ng --support --tree Your_Tree-raxmlng.raxml.bestTree --bs-trees 1000 --prefix Your_Tree-boot --threads 2
-
-
 ```
 
 Finally, the phylogenetic tree was visualized and modified using `figtree` (<https://github.com/rambaut/figtree/>) and `MEGA7` (<https://megasoftware.net/>)
