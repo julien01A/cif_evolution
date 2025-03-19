@@ -95,7 +95,9 @@ For the final plot, we can merge the cif operon phylogeny (see the directory par
 
 ## 2. Drawing of RAGE and WO prophage environments
 First, using the Prokka annotation, database searches in RAGE and WO with OrthoFinder and blastP (see the directory part.3), we created a table grouping key information about syntenic gene environments bordering *cifA-cifB*. An example of this table, named `Environment.txt`, is provided for two typical *cifA-cifB* environments: RAGE and WO prophages. eg. (i) Rickettsia hoogstraalii strain CS carry *cif* operon in a RAGE module on contig29 (see `RhooCS.gbk` for full gene annotated raw data Prokka file, or `RhooCS_29.txt` for contig29 only), (ii) Mesenet longicola strain GL2 carry *cif* operon in a WO prophage or WO-like island on contig9 (see `MesenetGL2.gbk` for full gene annotated raw data Prokka file, or `MesenetGL2_9.txt` for contig9 only). 
-The `Environment.txt` table indicates the distinct ORFs identified by Prokka ('Prokka_name') and their correspondance in the RAGE/WO databases ('Gene').
+The `Environment.txt` table indicates the distinct ORFs identified by Prokka ('Prokka_name') and their correspondance in the RAGE/WO databases ('Gene'). Regarding the two examples, contig29 of R. hoogstraalii CS contains 92 ORFs (only 56 are presented in `Environment.txt`); contig9 of M. lonficola GL2 hold 22 ORFs (all presented in `Environment.txt`).
+
+We develop a specific R script able to 
 
 ... R
 
