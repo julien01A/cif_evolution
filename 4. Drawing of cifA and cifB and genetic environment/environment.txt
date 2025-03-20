@@ -1,0 +1,79 @@
+Species	contig	Gene	Prokka_name
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00700 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00701 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00702 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00703 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00704 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00705 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00706 Translation initiation factor IF-3
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00707 Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00708 Peptide chain release factor RF1
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00709 Single-stranded-DNA-specific exonuclease RecJ
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00710 Transcription termination factor Rho
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00711 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00712 Integration host factor subunit beta
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00713 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00714 hypothetical protein
+RhooCS	RhooCS_29	other_or_unspecific	RhooCS_00715 Peroxide stress resistance protein YaaA
+RhooCS	RhooCS_29	ANK	RhooCS_00716 hypothetical protein
+RhooCS	RhooCS_29	Integrase	RhooCS_00717 Prophage integrase IntS
+RhooCS	RhooCS_29	Phage_like	RhooCS_00718 hypothetical protein
+RhooCS	RhooCS_29	TraA	RhooCS_00719 hypothetical protein
+RhooCS	RhooCS_29	TraL	RhooCS_00720 hypothetical protein
+RhooCS	RhooCS_29	TraE	RhooCS_00721 hypothetical protein
+RhooCS	RhooCS_29	TrakN	RhooCS_00722 hypothetical protein
+RhooCS	RhooCS_29	TrakC	RhooCS_00723 hypothetical protein
+RhooCS	RhooCS_29	TraB	RhooCS_00724 hypothetical protein
+RhooCS	RhooCS_29	TraV	RhooCS_00725 hypothetical protein
+RhooCS	RhooCS_29	TraC	RhooCS_00726 Protein TraC
+RhooCS	RhooCS_29	TraW	RhooCS_00727 hypothetical protein
+RhooCS	RhooCS_29	ToxinTAT	RhooCS_00728 hypothetical protein
+RhooCS	RhooCS_29	TraU	RhooCS_00729 hypothetical protein
+RhooCS	RhooCS_29	TrbC	RhooCS_00730 hypothetical protein
+RhooCS	RhooCS_29	TraN	RhooCS_00731 hypothetical protein
+RhooCS	RhooCS_29	TraF	RhooCS_00732 hypothetical protein
+RhooCS	RhooCS_29	TraH	RhooCS_00733 hypothetical protein
+RhooCS	RhooCS_29	TraG	RhooCS_00734 hypothetical protein
+RhooCS	RhooCS_29	TPR	RhooCS_00735 Photosystem I assembly protein Ycf3
+RhooCS	RhooCS_29	TraD_Flike	RhooCS_00736 Coupling protein TraD
+RhooCS	RhooCS_29	Transposase	RhooCS_00737 ISNCY family transposase ISRor2
+RhooCS	RhooCS_29	TraAI	RhooCS_00738 hypothetical protein
+RhooCS	RhooCS_29	Reverse transcriptase	RhooCS_00739 hypothetical protein
+RhooCS	RhooCS_29	intII	Intron_gpII
+RhooCS	RhooCS_29	TraD_Ti_like	RhooCS_00741 hypothetical protein
+RhooCS	RhooCS_29	ABC transporter	RhooCS_00742 Toxin RTX-I translocation ATP-binding protein
+RhooCS	RhooCS_29	membrane fusion	RhooCS_00743 Hemolysin secretion protein D_ chromosomal
+RhooCS	RhooCS_29	ABC transporter	RhooCS_00744 Leukotoxin export ATP-binding protein LtxB
+RhooCS	RhooCS_29	cifB	RhooCS_00745 hypothetical protein
+RhooCS	RhooCS_29	cifB	RhooCS_00746 hypothetical protein
+RhooCS	RhooCS_29	cifA	RhooCS_00747 hypothetical protein
+RhooCS	RhooCS_29	SpoT_hydrolase	RhooCS_00748 GTP pyrophosphokinase rsh
+RhooCS	RhooCS_29	HisKinase	RhooCS_00749 Phosphotransferase RcsD
+RhooCS	RhooCS_29	Dna_methyl	RhooCS_00750 Modification methylase DpnIIA
+RhooCS	RhooCS_29	DnaI	RhooCS_00751 hypothetical protein
+RhooCS	RhooCS_29	tRNA-Val	RhooCS_00752
+RhooCS	RhooCS_29	CK	RhooCS_00753 Cytidylate kinase
+RhooCS	RhooCS_29	Ribosomal protein S20	RhooCS_00754 30S ribosomal protein S1
+RhooCS	RhooCS_29	Clp protease	RhooCS_00755 ATP-dependent Clp protease proteolytic subunit
+MesenetGL2	MesenetGL2_9	Tail_Fiber	MesenetGL2_00321 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail_Fiber	MesenetGL2_00322 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail_Fiber	MesenetGL2_00323 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail_Fiber	MesenetGL2_00324 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail_Fiber	MesenetGL2_00325 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail_Fiber	MesenetGL2_00326 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail	MesenetGL2_00327 Putative prophage major tail sheath protein
+MesenetGL2	MesenetGL2_9	Tail	MesenetGL2_00328 hypothetical protein,
+MesenetGL2	MesenetGL2_9	Tail	MesenetGL2_00329 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail	MesenetGL2_00330 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail	MesenetGL2_00331 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail	MesenetGL2_00332 hypothetical protein
+MesenetGL2	MesenetGL2_9	Tail	MesenetGL2_00333 hypothetical protein
+MesenetGL2	MesenetGL2_9	ANK	MesenetGL2_00334 hypothetical protein
+MesenetGL2	MesenetGL2_9	Patatin	MesenetGL2_00335 hypothetical protein
+MesenetGL2	MesenetGL2_9	Patatin	MesenetGL2_00336 hypothetical protein
+MesenetGL2	MesenetGL2_9	ANK	MesenetGL2_00337 hypothetical protein
+MesenetGL2	MesenetGL2_9	MutL	MesenetGL2_00338 DNA mismatch repair protein MutL
+MesenetGL2	MesenetGL2_9	Patatin	MesenetGL2_00339 Cardiolipin synthase B
+MesenetGL2	MesenetGL2_9	Transposase	MesenetGL2_00340 hypothetical protein
+MesenetGL2	MesenetGL2_9	cifB	MesenetGL2_00341 hypothetical protein
+MesenetGL2	MesenetGL2_9	cifA	MesenetGL2_00342 hypothetical protein

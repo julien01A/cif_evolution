@@ -1,0 +1,1594 @@
+LOCUS       RhooCS_29             108483 bp    DNA     linear       15-DéC.-2023
+DEFINITION  Genus species strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Genus species
+  ORGANISM  Genus species
+            Unclassified.
+COMMENT     Annotated using prokka 1.14.6 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..108483
+                     /organism="Genus species"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     gene            113..952
+                     /locus_tag="RhooCS_00664"
+     CDS             113..952
+                     /locus_tag="RhooCS_00664"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00664"
+                     /translation="MTYAILKSIKEIAIELKQDVPDYNKVTSKTLEMLSTDKNFLKFF
+                     NEKGKYIADYIRTGATEILPSDYIKAFDDILQKPQGKDTYAKVIKIFNEYPEFKQELA
+                     ENINNPTALKRFNKLSPEKQIIIEGFLIETKEQAKPFLKEYFESYKVDLSIVDTIPTL
+                     LNKMPETKEIFDTLNAPNQGVMVALEKSLEMVAGDDKLKSFFADNKTVLPDIASAIIE
+                     NTPNIQSMTKEYNFDKQMLSIVGEVMSKPEIAHAIITDINKGDYMNVTSRVITAFNEL
+                     HLS"
+     gene            1105..1683
+                     /locus_tag="RhooCS_00665"
+     CDS             1105..1683
+                     /locus_tag="RhooCS_00665"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00665"
+                     /translation="MPILLDNPESLKKVFDGFVKGDYTGLAKELVILTKDNPEIKKYL
+                     NDNKEIFTSILDKTLKDVPGINKLDKKELYNILTPMLNQPDKLVQILENIENKKYINV
+                     ATSIGSLVWKEGQTLNIIKQIPNVVKAGVGYFKSDKVPVELENKVPADVLKEAQNIVS
+                     NLNSKINIVGSKTNTLSITPISNNKKKEEIHR"
+     gene            complement(1932..2909)
+                     /gene="miaA"
+                     /locus_tag="RhooCS_00666"
+     CDS             complement(1932..2909)
+                     /gene="miaA"
+                     /locus_tag="RhooCS_00666"
+                     /EC_number="2.5.1.75"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q9KAC3"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tRNA dimethylallyltransferase"
+                     /protein_id="Prokka:RhooCS_00666"
+                     /db_xref="COG:COG0324"
+                     /translation="MQQPNNYRLNYISVTKKEIIILCGPTASGKSYLGHEFAKACNGE
+                     IINIDSMQVYKEIPIITASPPKSYTAEVTYHLYNFLSITEDFSVIKYLKLATEKIKEI
+                     AARGKLPILIGGTGLYINSLVFGYNNIPDISEDLREQVRNLHAEIANIELWNKLEKLD
+                     PLAASKINQNDTQRLIRAYEVFMQTGKSIFSFQNLPKEQILSDFNFKIIFLNPERKFL
+                     YKTCDERLQKIFKEGAIDEIALIKKQFAPKDYANLKAVGIKEILAYLDGNLTLDEALS
+                     AAQIRTRHYAKRQVTWFKNQIQDKTTLEYSNQEEFAQILGNFHIYTLGK"
+     gene            complement(3269..3487)
+                     /locus_tag="RhooCS_00667"
+     CDS             complement(3269..3487)
+                     /locus_tag="RhooCS_00667"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00667"
+                     /translation="MSKTSYQIDSVNISPVDTDNKLITVMPTGANTLNININNKAPLV
+                     IKYEDLKPTNNPNVLELDSDVAASNGFK"
+     gene            complement(3746..5182)
+                     /gene="algC"
+                     /locus_tag="RhooCS_00668"
+     CDS             complement(3746..5182)
+                     /gene="algC"
+                     /locus_tag="RhooCS_00668"
+                     /EC_number="5.4.2.2"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P26276"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Phosphomannomutase/phosphoglucomutase"
+                     /protein_id="Prokka:RhooCS_00668"
+                     /db_xref="COG:COG1109"
+                     /translation="MQINKEIFRAYDIRGNSLKDLIEEVAYKIGFCFAEMTITKDNSK
+                     ICIGLDGRLSSPTLCKALELGLTDAGSEIINIGVVPTPVLYFTDKQFMPAGSIMVTGS
+                     HNPRDDNGFKILQNGKSFFGDQIQDLLAKVLNSHVMSTTPYVIPAKAGIQINTSGDMD
+                     SRFCGNDIDYGHNIEHKYLKRILEGININPKLKVAWDCGNGATGNIIEELKKHLTNHN
+                     IIINSRIDGNFPSHHPDPTNPANLQELIKLVKEQNCDLGIAFDGDGDRIGIVSGNDKI
+                     LFGDQILCIFAEDILKENPNATIIVDLKTGQFIVDKIKSFGGNPIIWRTGNPFIKSKM
+                     LETKALLAGEMSGHIFFADKYFGFDDAIYAALRFLDLLSKSDKTLDEIIEDLPKSYST
+                     PEIKIFVPSRLKLQIIKEIKEKLLEEKIEFNDIDGVRVNTEHGWWLLRSSNTESIIVA
+                     RAESASKEGLEEIIAIINKYLEKYGLLI"
+     gene            complement(5401..6123)
+                     /gene="lptB"
+                     /locus_tag="RhooCS_00669"
+     CDS             complement(5401..6123)
+                     /gene="lptB"
+                     /locus_tag="RhooCS_00669"
+                     /EC_number="3.6.3.-"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P45073"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Lipopolysaccharide export system ATP-binding
+                     protein LptB"
+                     /protein_id="Prokka:RhooCS_00669"
+                     /db_xref="COG:COG1137"
+                     /translation="MDSLQVKNISKSYKKRNILTDISLNIKQGEIVGLFGPNGAGKTT
+                     CFNIIIGLMKPDSGQLLLNDINITNLPIYLRARLGIGYLLQEPSIFRGLSVEDNIKAV
+                     VEISENDKEVIEQKTHNLLEKFSIVHLKDLSAASLSGGERRRLEIARSLAIEPKFIML
+                     DEPLAGIDPLAISDIKNLITYLREFNIGILITDHNVRDTLDIVDRAYVIFEGKVLLEG
+                     SAKEIANSKKVKEVYLGESFSF"
+     gene            complement(6267..6704)
+                     /locus_tag="RhooCS_00670"
+     CDS             complement(6267..6704)
+                     /locus_tag="RhooCS_00670"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00670"
+                     /translation="MSLQSSIYRIIKLVVFLTISISIYANDKNISNLHITSDTLIIDR
+                     IKQKAEYLGNVVVYFDNAILRTKELYIFYKTIDDKQTIDYIVIPTKLTVERKINNELL
+                     LADSAKYFFDDKQLILLGNVILQRDDNILKTNKLIYYVDIVKK"
+     gene            complement(6670..7269)
+                     /locus_tag="RhooCS_00671"
+     CDS             complement(6670..7269)
+                     /locus_tag="RhooCS_00671"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00671"
+                     /translation="MPSSYKRRKKIWKSVYLLIIVGILYIGYILIKSGYINEENDINV
+                     TKKSLKDTKNFDLKYNIILKDSIFEGVNKNLNAYKIKTERAIKESDNKYKLDIINAIY
+                     NVNQDQTLIINAKEGFLDEESNILDLKNDVKLFFDEIIFNTNDARIDLVNKNITGNSS
+                     AKLLYKNSSITSDSFNTKDENNIIIFKGNVSTIIDLSDY"
+     gene            complement(7275..8234)
+                     /gene="kdsD"
+                     /locus_tag="RhooCS_00672"
+     CDS             complement(7275..8234)
+                     /gene="kdsD"
+                     /locus_tag="RhooCS_00672"
+                     /EC_number="5.3.1.13"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P45395"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Arabinose 5-phosphate isomerase KdsD"
+                     /protein_id="Prokka:RhooCS_00672"
+                     /db_xref="COG:COG0517"
+                     /translation="MTDINNYQIIAKRVISSEASALEKLSENIPEDFNRIIEFLLSFK
+                     GRIILTGIGKSGYIARKIAASFSSTGMPAFYLHPAEASHGDLGMVTRNDLVIMLSNSG
+                     ETKELFNIIEYCKNSSIKIAAMTMNKNSTLAKRSDFLLIVPEYPEASVIGAPTISSLI
+                     MLSLGDALMTVIHEKRGFTKDDFKIYHPGGTIGANLTKIKNLMRSGDEIPLVYEDTSF
+                     AETIIIMNKKRLGCTLVTDKNQNLIGIITDGDLRRHINDQIHLKTASSIMTKNPIHIS
+                     SEIFAKEALNLMKAKNITNIPIVDDNIIMGIIHIHDLLRMGVS"
+     gene            complement(8489..10732)
+                     /gene="pnp"
+                     /locus_tag="RhooCS_00673"
+     CDS             complement(8489..10732)
+                     /gene="pnp"
+                     /locus_tag="RhooCS_00673"
+                     /EC_number="2.7.7.8"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q9AC32"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Polyribonucleotide nucleotidyltransferase"
+                     /protein_id="Prokka:RhooCS_00673"
+                     /db_xref="COG:COG1185"
+                     /translation="MFNEITKSVTWNRKVLELSTGKIARQADGAVTVKMGNSVLLCTA
+                     VVAKKAKEGIGFFPLTINYREMAYAAGKIPGGFFKREGKASDREVLVSRLIDRPIRPL
+                     FHPAFVNETHVTCSVLSYDPETPVDILAIIGASAALSLSPAPYLEIVAASKVGLINGE
+                     FVLNPTLELLKTSQLDLVVAGTSDSVMMVESEAHLLAEEQMLEAVKFGFESFQPVIKI
+                     IKELAEEAKKPKLEMQDLYPASLKKEIEKLFVKEIEQAFAIKSKQERSTNLDLIPEKV
+                     LTHFVSDIENKKYSNYQIESALKSIESDILRNEILEKNRRIDGRSTTDIRQIACEIGL
+                     LPSAHGSALFTRGETQSLVSTTFGTSLDEQIVDSLEGEYKERFMLNYIFPPYSVNEAM
+                     PMKAPSRREVGHGKLAWRAINPILPNKVQFPYSIRVVAETTESNGSSSMATVCGSSLA
+                     LMYAGVPIKAPVAGIAMGLVKEGKKFAVLSDILGDEDYFGDMDFKVAGTSEGITALQM
+                     DIKISGVDFKIMKVALEQARLGRLHILEQMNKVISKPNSELSKNAPSTTTIKIDKDKI
+                     RDIIGPGGKVIKEICETSGVKIDISDDGTVSVYASDRDKLKVALDKIKAIAVEPEIGE
+                     IFNGTVMKVLDSGAFINYLGNKDGFVHISEISEERIETVSSVLKQGDIVKVKLIGFDN
+                     KGKAKLTIKNANKDKSSNNPKPKNNVNNAKENSEPERRDSSKKRAWNEDNNAETAEVI
+                     TERKYFN"
+     gene            complement(10920..11195)
+                     /gene="rpsO"
+                     /locus_tag="RhooCS_00674"
+     CDS             complement(10920..11195)
+                     /gene="rpsO"
+                     /locus_tag="RhooCS_00674"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P05766"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="30S ribosomal protein S15"
+                     /protein_id="Prokka:RhooCS_00674"
+                     /translation="MSITQERKQQLIKEYAITENDTGSSAVQCAILTERINNLTEHFK
+                     SNHKDHTSRRGLLILVGRRRRLLNYIKKNNVREYLDLISKLGIRKIK"
+     gene            complement(11217..12098)
+                     /gene="truB"
+                     /locus_tag="RhooCS_00675"
+     CDS             complement(11217..12098)
+                     /gene="truB"
+                     /locus_tag="RhooCS_00675"
+                     /EC_number="5.4.99.25"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q97QJ3"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tRNA pseudouridine synthase B"
+                     /protein_id="Prokka:RhooCS_00675"
+                     /db_xref="COG:COG0130"
+                     /translation="MNSYWLNIYKPRGISSAKLVSMVKKILGKEVKIGHAGTLDVEAE
+                     GILPLAVGEATKLIQLLIDARKTYIFTVKFGLQTDSGDYTGKVIATKDYIPSQEEAYT
+                     VCSKFIGNVTQIPPAFSALKVNGVRAYKLAREGKEVELKPRNITIYNLKCLNFDEKNA
+                     TATYYTECSKGTYIRTLAEDLALSLQSLGFVIELRRTQVGIFKEENAIQIKSPDEITK
+                     NFLEEKSIKIESILDDILVLDATDSQAQKIRYGQKCQFDYEEDVSLLWVRYKGTLLAI
+                     GSLNKSCFNSLRVFNLL"
+     gene            12382..13917
+                     /gene="tlcA_3"
+                     /locus_tag="RhooCS_00676"
+     CDS             12382..13917
+                     /gene="tlcA_3"
+                     /locus_tag="RhooCS_00676"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P19568"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ADP,ATP carrier protein 1"
+                     /protein_id="Prokka:RhooCS_00676"
+                     /db_xref="COG:COG3202"
+                     /translation="MTINSSNIENLPSKINSRFSKLTDYIWPIKRHEVSKFLFITLLM
+                     FCILFIQNLIRALKDSIVTTMIGAETISFLKFWGVMPSAFLMTAIYVKLVNRMKAENI
+                     FYLIISIFLTFFALFAYVIFPNHEMLHLSPVTVQNLTASLPNLKWFILLLSKWSFSLF
+                     YIIAELWPNVVFALLFWQFVNNITTVEESKRFYPLFGLLSQTGIYLAGQFLENLSNIN
+                     DYVTNKFALQSSFHTLSIQIILTIVLILGIIAIKTFWLLNHKVLDKEHMALLKFKAKK
+                     KSMTIAESFQMILSSRHIRLIATLLICYGIAINLVEGPWKAAATKIYKTPTEYAAFIG
+                     SYLSYTGVFTILFVVLGSNIVRRLGWFTAAVITPLIVFITGILFFAVNNFEGFAGLII
+                     ANFILTDPGLIAITIGAIQNVLSKSSKYTLFDSTKEMAYVPLDPEIKIKGKAAADVIG
+                     TKLGKSGSAFLQSLVFIILPSASYQSISICLMIIFIITCLTWLWATKELNKEYKNSIK
+                     FSQ"
+     gene            14183..17197
+                     /locus_tag="RhooCS_00677"
+     CDS             14183..17197
+                     /locus_tag="RhooCS_00677"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00677"
+                     /translation="MSKDGNPDTSEFDPLNREFTEEEKQQQMKQEQELFSQPTLDTAD
+                     DGFSFTPASSTQSTPSISTLSGSISPDGQTSDPITEAIRREILEKQRDILREYFANTN
+                     PELAEQIAKEEEDRKFRAFLSNQDNQGLINKAFEDSETKKRLEAAEIAGYKNVLSTYS
+                     AANGYQGGFKPVQWENQISASDLRATVVRNDAGDELCTLNETTVKTKPFTVAKQDGTQ
+                     VQISSYREIDFPIKLDKADGSMHLSMVALKADGTKPSKDKAVYFTAHYEEGKDGKPQL
+                     KEISSPQPLKFAGDGPDAVAYIEHGGEIYTLAVTRGKYQEMMQEVKLNQGQSVDLSQT
+                     IAEDLTKVQGRSQETPQPIITPNQELKSSIETPTTTQVPPITPANQPLQPETSQMPQP
+                     QQVNPNLLNAATALSGSIQDLLNYVNAGLTREKDSNKQIDLINEAATAILNNEKSDIA
+                     EKQDNIIALTKNMVNNNDLTPDTKVGGVNAVLETIKNDQNTPDLEKSKMLEATIALSS
+                     ENLEPKQKQQMLEKAVDVGLSLKDDASRAAAIDGITDAVIKSNLSTEDKGTMLIAVGD
+                     NAEKQKLLGSVLKKGVEAQVLSPEQQQLMQQNLDKITAEQTKNAQITEVQGILANPAF
+                     NTIAKTEAIQNVTTKVLDSPIKAEIKGETLESITKVVAESPLNGQDKADIVKGMEEAI
+                     ASHKTMAPTEKISAIESVEKGVAESITDLEDKKLMTKGLVEGIYEGKANPEITSEMTK
+                     AVSRGIDKSTAIPEDKQALKDAASEVALDRETQNLTEGLKGQESKPRDDIYNKAQDVT
+                     DALKNVITPVLDAHPEKREISEEEVVKKTSSILNDISKLAIEKVNNFRAMLSPDGNLK
+                     TLEEKKAESTKKVDELVKEFGTKSSTEEQQSFIKANLIDDKTLSKEVRLQTIDKLLQE
+                     QAQKRAEAIENPSVKTEDVRVVSGQSELKPISKDKPDIEKAKMVVGRDRVNIKDNIKI
+                     MGALMNARDSIIQSENLNKLTPIKRESSFPPR"
+     gene            complement(17134..17364)
+                     /locus_tag="RhooCS_00678"
+     CDS             complement(17134..17364)
+                     /locus_tag="RhooCS_00678"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00678"
+                     /translation="MLPAFAERYCCVDHKTHSVSYRGLSTGLTEVKPIHVTMLRRNDI
+                     ACLYNIQNTSLDQRGGKEDSLLIGVNLFKFSD"
+     gene            complement(17542..17934)
+                     /locus_tag="RhooCS_00679"
+     CDS             complement(17542..17934)
+                     /locus_tag="RhooCS_00679"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00679"
+                     /translation="MGRKNDIIQKIDSFIGKKIYSLRLAKGLSRQQLAEVIDVTHQQL
+                     QKYEKAINRISVGRLVLIAEALDRNIDYFFEGLEEANKPQPVRTQHQRMCIEVSRNFM
+                     KINSTEEQQAVNNLVKCLAGKDKLKASS"
+     gene            18446..19273
+                     /locus_tag="RhooCS_00680"
+     CDS             18446..19273
+                     /locus_tag="RhooCS_00680"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00680"
+                     /translation="MRKIFNCLYVALFRTIEDDGVEHSGYMSFMILLSIFPFLVFLLA
+                     LTSFLGASELGQNFIQIFLESLPEQATESIEKRIRELLSAPPQSLMNLAIVGSIWTAS
+                     SFVECLRTILNRVYQIKSPPPYIRRRLLSIIQFLIISALITFTMFLLVVIPIVFTKVP
+                     IILETIEKYKIILNFIRYSLILILLFLGASSLYYILPNVKLNFVDVFPGALLTVILWI
+                     ISGYLLSTYIVYYNQLNLMYGSLGSIIVTLIFFYIINMIFIYGAEFNYLMKNYENIE"
+     gene            20269..20991
+                     /locus_tag="RhooCS_00681"
+     CDS             20269..20991
+                     /locus_tag="RhooCS_00681"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00681"
+                     /translation="MEGLINGSVYYKIFDKTFNNSSHRYIKKNNSINEKEIVENKKSI
+                     TTYFKAQDILILNQVHSNQIVNADESIIAVPEADGSITTKKNLVLAVQSADCVPVLLA
+                     SGDGKIIGAAHAGWKGSINNIISNIVTKMTEKGAKNLIAVIGPAIAQSSYEVDDEYYK
+                     AFLSKDINNKQFFINSIKENHYMFDLPSFVELKLKEAGVKDIKNIAEDTYTNPLKYPS
+                     KRRSYHLQEPYNQNILSAIVIK"
+     gene            21285..21836
+                     /gene="def_1"
+                     /locus_tag="RhooCS_00682"
+     CDS             21285..21836
+                     /gene="def_1"
+                     /locus_tag="RhooCS_00682"
+                     /EC_number="3.5.1.88"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q9I7A8"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Peptide deformylase"
+                     /protein_id="Prokka:RhooCS_00682"
+                     /db_xref="COG:COG0242"
+                     /translation="MNQEKHYYQIVYAPNDIFKKQAEYIDIVDDNIRTIVDKMLQTLH
+                     IKRAVGLGANMVGILKRIAVVDLHENNKSSPIVFINPEITYFSEEKQTFIEGSLSFPG
+                     IEASITRSKAIKVKYLDYDGNKQELEAEGFLATVIQHEIDYLNGKTFLDYVSKLKRDT
+                     LVKKMLKHIKLHPPHVHGSSCRH"
+     gene            21866..22015
+                     /locus_tag="RhooCS_00683"
+     CDS             21866..22015
+                     /locus_tag="RhooCS_00683"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00683"
+                     /translation="MKNKITILNTKKLKEQDNKVKEIRKLAKEINLQPSDLEVWLNYR
+                     NEGKK"
+     gene            complement(22319..23014)
+                     /gene="novR"
+                     /locus_tag="RhooCS_00684"
+     CDS             complement(22319..23014)
+                     /gene="novR"
+                     /locus_tag="RhooCS_00684"
+                     /EC_number="4.1.-.-"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q9L9F0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Decarboxylase NovR"
+                     /protein_id="Prokka:RhooCS_00684"
+                     /translation="MDIKYNLAAAYRIMAYLSLDDHTYTHLSARPKNADFYYIYPFGL
+                     RFEEVTTENLLKVSLDGKILEGEEYQYNKTGYFIHGSIYKVRPDISAVFHYHTPASIA
+                     VSALKCGLLPLSQWALHFYDRISYHDYNSLVLDADKQSSRLVTDLKQNYVMLLRNHGA
+                     ITCGKTIHEAMFYTYHLEQACKTQCLLNSTKEQEIITPSVKICKQTVKDLLSFEEDLG
+                     KRDWEAWIRLVKM"
+     gene            complement(23225..25033)
+                     /locus_tag="RhooCS_00685"
+     CDS             complement(23225..25033)
+                     /locus_tag="RhooCS_00685"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00685"
+                     /translation="MIIIPILSIFGFSSFFAKYFKTKLTFTIPVTISILVPILYCFAM
+                     LKLLPSATYVSYFIGIFLALRSFLHFIGVVAGVGYAPVIPRLDRGIQLKIFSIFKLYF
+                     WTPWSSHGMTPRAFLDLHNNTYFMSSSRKQESRKNIIEIIIFALLIFIFFLYTREASL
+                     HAYDDFSHWGIFTKELLYFGVFENQSSLTSIITTHAHYPRGAAVYHYCMLSFSGYSDG
+                     NVLFAHFLLHLAFLAPLAANKKLWQTGVLFSLLLCSVVLYTTGIRSIYNDSTIGLMFG
+                     AIFTIYILEEDKKKALLLILPITILLASFREIGTWFASFASIILIAHYTIFYKKPKKS
+                     SDYIVYMILLTLPILCNFIWMSYFKNTHDFFDRGEHSFSNLIYIVENFNEQHRALLLN
+                     YGKFLLLFLVKEGSLVVYTICIASWYGIRKYKPDLLKEYKFFLISIFACFIIFALWRL
+                     YLYFFNFSYEEAIRGASLLRYLGCYVIAIGMIAASYVKNSIFLNKQSNKELFIFLLLL
+                     AISTFSVVKNILRIKHLNLEQKNFIQQTTEVKKLLEQGNKIEFNFGGKKDNLQCYILN
+                     YNLAPYLGKKSLQECIKAPKEAIIETEEETVYAPFK"
+     gene            complement(25291..27927)
+                     /gene="ppdK"
+                     /locus_tag="RhooCS_00686"
+     CDS             complement(25291..27927)
+                     /gene="ppdK"
+                     /locus_tag="RhooCS_00686"
+                     /EC_number="2.7.9.1"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P22983"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Pyruvate, phosphate dikinase"
+                     /protein_id="Prokka:RhooCS_00686"
+                     /db_xref="COG:COG0574"
+                     /translation="MKKLIYYFGSNGSDGNASMKNVLGNKGAGLAEMSNLKLPIPDGF
+                     TITTELCNYFYTHNNNFPKNFQNDLKKAITELEITTGKIFGSTSNPLLLSVRSGSTVS
+                     MPGMMDTILNLGMNNEVCNALADSCGDKRFALDSYKRFLEMYGSTVLSIPSDLFEQIY
+                     EKHKIQADIHKDSDITVELLEKIIEDFKRLHIKYTKQLINDPYEQLESAIKAVLHSWM
+                     SNRAVIYRKINNISEGFGTAINIQAMVFGNLGKTSATGVAFTRSPSTGEKKLFGEFLI
+                     NAQGEDIVSGTRTPMPIIANDSNSMQAMMPEVFKELSQIAKKLEEHYLDMQDIEFTIE
+                     NNKLYILQTRTAKRTAIAAINIAVQMVEEKLISKEQALMQIDPESLNQLLHTRIDYSK
+                     GLTSIAEGLPASPGAATGIAVFSPYDAEKLSHHHKVILVRHDTSPEDINGMHVSSGIL
+                     TIRGGMTSHAAVVARGMGKPCVCGTSNLSIDEKKQILTAGDIVIKQGDIITIDGGSGK
+                     IFLGEMPLIQPTFSEESKLILDWADEISSLKVRANAETVNDALVSIKLGAQGIGLCRS
+                     EHMFFDKNKIPLVREMIIAPDIERRKLAVQKLLPLQTEDFKALFRVMKDKPVNIRLLD
+                     PPLHEFLPTTEEDKKNLANSLNLPLSMINQRLHAMHEVNPMLGHRGCRLGICSPEIYQ
+                     MQIEAIFTAIFELHKKEHIECNLELMIPLISNVGEIKKLKMDIYEVIEELEQRYRYKF
+                     SFTLGTMIELPRAALGSKKIAKEVDYFSFGTNDLTQTTYGISRDDIASFLPYYLEEKI
+                     FESDPFTTLDEEGVGELIEIAIKRGKSSNANLKLGACGEHAGNPASIEFFHRMNLNYV
+                     SCSPYRIPIARIAAAQAKIKHG"
+     gene            28244..28643
+                     /locus_tag="RhooCS_00687"
+     misc_RNA        28244..28643
+                     /locus_tag="RhooCS_00687"
+                     /product="RNaseP_bact_a"
+                     /inference="COORDINATES:profile:Infernal:001001"
+     gene            28935..29603
+                     /gene="fzlA"
+                     /locus_tag="RhooCS_00688"
+     CDS             28935..29603
+                     /gene="fzlA"
+                     /locus_tag="RhooCS_00688"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:A0A0H3CDY2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="FtsZ-localized protein A"
+                     /protein_id="Prokka:RhooCS_00688"
+                     /translation="MKKLYHYPICPLSRQARVFLKELDIEFTTIKEDYWQFNKDFLKI
+                     NPAGTLPILEEQYGLFVVGIYPFVEYLNSKYPNFNFLDEDIDICCEIRRLFFWFNDKF
+                     YREVTKIIIDEKVIRSIAKMSSPRTEFLRAAKNNLNYHLEYITSLLEKRSYLVSDSLT
+                     IADIAASCHLSVLDYFGEIYWDKWTLIKHWYSLIKSRPAFRLLLQDRIPSFTPPSYYT
+                     DLDF"
+     gene            complement(29566..30315)
+                     /locus_tag="RhooCS_00689"
+     CDS             complement(29566..30315)
+                     /locus_tag="RhooCS_00689"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00689"
+                     /translation="MKIKIYNDLGVSKESIKHCVHTLKLYAPKYEVDYITAQEIIDEK
+                     CFQNTLLLILLGGRDLYYVQKLQGKGNDNIKNYLKNGGNFLGICAGSYYSGNYLEFAK
+                     GTNIEVIGERELKIFNGTVRGPLLAPYYYNSNKGARAAYLKINPTLNLNIKDCYAFYN
+                     GGGYFVDAENTKDTEIIASYEDNKPAIIKCTCGDGTAILSGVHLEYEPALIKNQSLNN
+                     IRKILKAHDKERIKLLNYIFKNLNLYNSLEG"
+     gene            30391..30933
+                     /locus_tag="RhooCS_00690"
+     CDS             30391..30933
+                     /locus_tag="RhooCS_00690"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00690"
+                     /translation="MQLNSISLPLTKRQAIEIVLGVALLTICSQILIPMKPIFISLQT
+                     VAVMFIGLTYNKTTAPLTILSYITLGAMGIPVFGEFSSGLRILFGPTAGYLAGFIVAV
+                     YIMASLKDKIFTSNKWLNQISLCLIGNIIIMSFGWMWLSKLLGPSGAFYGGVLPFIIP
+                     GIIKSGLLIGLINVVKPKTR"
+     gene            31030..31281
+                     /locus_tag="RhooCS_00691"
+     CDS             31030..31281
+                     /locus_tag="RhooCS_00691"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00691"
+                     /translation="MTKNTPTSIYLETNLSEKITLIAAELHCRPNDLINEAVRLFVEG
+                     QERIKQLKAEDVKRQSLLSREQKKLEEEWEKNQDYTDWI"
+     gene            31285..31422
+                     /locus_tag="RhooCS_00692"
+     CDS             31285..31422
+                     /locus_tag="RhooCS_00692"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00692"
+                     /translation="MDKIEIKKGDIVVCVLSGNYGKPRPAVVIQSNSLNKTLASILVV
+                     L"
+     gene            31501..31620
+                     /locus_tag="RhooCS_00693"
+     CDS             31501..31620
+                     /locus_tag="RhooCS_00693"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00693"
+                     /translation="MVDKINAISIDKIDTKIGKLSFDEIIELNKALKYCQDLD"
+     gene            31672..32955
+                     /gene="fpgS"
+                     /locus_tag="RhooCS_00694"
+     CDS             31672..32955
+                     /gene="fpgS"
+                     /locus_tag="RhooCS_00694"
+                     /EC_number="6.3.2.17"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P15925"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Folylpolyglutamate synthase"
+                     /protein_id="Prokka:RhooCS_00694"
+                     /translation="MLMPHFPVPTWKNNIKYDLENIARLLKALGNPHLRLPPVIHIAG
+                     TNGKGSSSAMLKSIFTLAGYKVHCYTSPHLLEFNERIVVAGEKISDNELWQVCEEVRV
+                     ASEKFNIEPSFFEGTTAAAFVAFEKTKADILILETGLGGRLDATNIVERPLITLITPI
+                     SYDHMHMLGNTLPLIAVEKAGIMKPCVPCVISMQALEVYETLFAKAEELEVPSFCYEY
+                     DFGIKKTDNGFIYSSRNFSYEFPTPSLLGDHQLINAASVIALISLINKQFNISNEIIS
+                     KGLQNTIWRARIEKIEPKKYSKLIGDNVQIWVDAAHNNSGAQVLANWIRDNLKSPIYL
+                     ILGMTKNRNIEEFCSYFKGLTIKGYGVKVLSEPLSHSAETINLEGRKSGIDFSESDSL
+                     EEAISDIKKINGDNKANIIITGSLYLASDFYKLLR"
+     gene            33101..33730
+                     /gene="sodB"
+                     /locus_tag="RhooCS_00695"
+     CDS             33101..33730
+                     /gene="sodB"
+                     /locus_tag="RhooCS_00695"
+                     /EC_number="1.15.1.1"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P77968"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Superoxide dismutase [Fe]"
+                     /protein_id="Prokka:RhooCS_00695"
+                     /translation="MTYCNKSNQTSYPFILPDLPYDKESFKPHFTPETFDYHHGKHHN
+                     AYVQNLNNLLKDKEELQKKDLEEIIEWSSQNSNAAIFNNAAQIWNHTFFWHSIKPQGG
+                     GKPSGKILEQINKDLGSFEGFCEQFKQEAVGQFGSGWAWLVYHDNRLQIIKTTNAGTP
+                     IANGMKPLLACDVWEHAYYIDYRNKRPDYVDIFIKHMINWKFVEDNLIK"
+     gene            33735..35531
+                     /locus_tag="RhooCS_00696"
+     CDS             33735..35531
+                     /locus_tag="RhooCS_00696"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00696"
+                     /translation="MADIKVRKHPIINNLKQESKTPVVNEQSDILEELKDLKKIQKSS
+                     SNQTKTLQELEQAQKAPIEYIAFSGGGAKGAIYSGAYEAAKKAGILDNVKAVAGSSAG
+                     AITAAVVALGTPPERFEEISKNTNLQTLLGKKGFSAGIVQLNKDGKPLYDLLELVIKE
+                     NIGNFLQRSDIVNVKDDKALDELRERYNQKDGKIYFKDIALLRKYDPVQYKDLVITAT
+                     QQETSELTIFNSFDTPNIEIALACRASASIPLVFEPVEIDGKKYVDGGYRDNIPTKYF
+                     KGNEPEFDIKEVTDNMEEITLAKKQGRILAMAFGTGMEADANIAIYSEKKFESPSDIV
+                     KFLADVLFKTLAKVGGKFKYTETLRETNEQLRENALNIVVLDTAGIDTLDFKDAQKYS
+                     DYLHIKGYCQTREHLNNHDLGKEADKTFDHQKFLLNVYEVYDNKNLHKTFGTKLLEMF
+                     IPSKENNTSKWQEGIIENHDDKAKMLLSFCKTGALNEKELNEKLKEYVIIAATSRNNT
+                     LKADTNSLKALLYTLNDPAASSKIKDSFIEVLGIDKNKDVRFDKTKTFDENIAKFKFT
+                     KQDLESFITKSKSEAPKIQSKHSVARSHASRG"
+     gene            35622..36479
+                     /gene="birA"
+                     /locus_tag="RhooCS_00697"
+     CDS             35622..36479
+                     /gene="birA"
+                     /locus_tag="RhooCS_00697"
+                     /EC_number="6.3.4.15"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P0CI75"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Bifunctional ligase/repressor BirA"
+                     /protein_id="Prokka:RhooCS_00697"
+                     /db_xref="COG:COG0340"
+                     /translation="MTENQSTQQYPLAMTTTKKMNIGKFKLIVFDEIDSTSSEAMRTA
+                     KSGIVDSNYAVLAKSQTKARGRSGKNWQSRVGNLHVSLLIKPDKELELLPQLSFVTAL
+                     AVYESITSLCHPDSSLCHYRPLCHSRESGNDIIGRGDIRLKWPNDVLVNGRKIAGILL
+                     ESVKVENNYYLIIGIGINITYHPDNIDQPTTCLVSENLPPIEPQALLEKLIENFEKYY
+                     QIWHNNGFSFIRKKWLEHAYKLHENISVKYQNDIVTGLFKDIDSTGRIILQLPSKKII
+                     SFSTAELFF"
+     gene            36671..37159
+                     /locus_tag="RhooCS_00698"
+     CDS             36671..37159
+                     /locus_tag="RhooCS_00698"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00698"
+                     /translation="MQDFHKTEKTFKCALFTGNNNACEGLLELYDAAIKKIPKYELQN
+                     INITQLRDIMVLVGRELKNEKCMNTSLLSVKINEKFFEPSVVAHVKAIEICQKQNSNN
+                     PFAVNEDKIIDDFNLTLDRLPCIYVPIKYSKLVCLMDDENEVKIIASEDSWYNILQEY
+                     GL"
+     gene            37156..37680
+                     /locus_tag="RhooCS_00699"
+     CDS             37156..37680
+                     /locus_tag="RhooCS_00699"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00699"
+                     /translation="MKETLISAQKFIQLTPEYLYKKGKESYQQALVEEVIFTQQKLYT
+                     NAILYFQGAMFLGSEDACAYLSEFYKNGNHLGINNERLSNLIKIVANIGKFLHYSKLT
+                     NSMCLKDFGISDYSELMELAIIEKGYMNAVQGEWHKIPVPEYLSLTNLKTIIQEFNSE
+                     LPPEYQLITDRKYF"
+     gene            37869..38612
+                     /locus_tag="RhooCS_00700"
+     CDS             37869..38612
+                     /locus_tag="RhooCS_00700"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00700"
+                     /translation="MIKKKNKQIEKKLLTSFEMLQEALSDYLQNVEMPLTNSGSNILI
+                     ITNDNIDIIIELHKELKEALVCGQGDAAYYFAQFYYNGWLVEKNYTKGDFILEIGKKL
+                     DSIKCTNTSYKSDNALSEEFKKLTTVCANSILNTKGIYQMGINDIMKSNAEFAFNKHL
+                     MNTNLTDILCIPESTFSPISTVSAPLPNTNINHTTKTQDTNGEIKRSTSYIPSSSIIH
+                     EAPNDQILTLCQDNYYNKHDSSGCTCLTM"
+     gene            38619..39113
+                     /locus_tag="RhooCS_00701"
+     CDS             38619..39113
+                     /locus_tag="RhooCS_00701"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00701"
+                     /translation="MVYILKNNKIFYLSPVNQLFKEAVENLTCAMLLGEEKAILPLSQ
+                     LYYSGTIYDILPDLVFGDYIILIGQKLGYKSCQNISLRMITNTKCLEKQLDSIAITIT
+                     SNMLFYHRHFKYISDEIKKKLLKTAMSNLIKHGIFVKLNIPIQHYYLLKCRKKKPKNL
+                     KKYL"
+     gene            39412..40920
+                     /locus_tag="RhooCS_00702"
+     CDS             39412..40920
+                     /locus_tag="RhooCS_00702"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00702"
+                     /translation="MKKVIYSNQTFDNMEIKSVTDNEVVIIGYASVYNIADHHNDLIS
+                     KGAFANASHHNVKFLWQHDSKKPIGIITHLAEDDYGLKMEAVINNKVKAGVEAIELIK
+                     QGAIDGLSIGFYIKNSVYNDARQRVITEAELLEISIVTFPANQSAKILYITKGQEIEY
+                     NDKINELEEKLYNMQNILERPNSVNIEEQEQKTAFINYVRKGEDNELMQKSSLNSSTE
+                     AGGVLILQTLYNSIITEINARSPMRGLASIETISTNALDIISEDGKFSSGWIGEVEAR
+                     EETTAAKLKQQRIFVHELYAQPKASQALLDDATIRVKNWLGERLRDSFVKMENNAFIN
+                     GDGIKKPRGILSPDHDKIEKVKMGNKITADGLLDFINYMSIAIEEVITKLANFVYCFQ
+                     IKLASGEELNLTNNDHAIKSEERVFLPNSGLDLKEAEFNDSAQNHIIIEGIFEENGIT
+                     TAMDLNNSIVKIIIYTDKLFEHFVTYYCTLYTKYDLNFKIHLKPETVNIIRL"
+     gene            41016..41306
+                     /locus_tag="RhooCS_00703"
+     CDS             41016..41306
+                     /locus_tag="RhooCS_00703"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00703"
+                     /translation="MLKESLRILDLDKENGYYNGGQIIFGENRFNSKVLSNFGDLIIL
+                     EDIIPDAAKDAEEVKIIAGCDKNFISCCNKFNNAINFRGEPLIPKKDFINLV"
+     gene            41310..41483
+                     /locus_tag="RhooCS_00704"
+     CDS             41310..41483
+                     /locus_tag="RhooCS_00704"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00704"
+                     /translation="MKQSFIKLVYAELKNIINMKSSKQQKKKETQLIDYFKIVESNIL
+                     YTFQKIKKEYERD"
+     gene            41470..41799
+                     /locus_tag="RhooCS_00705"
+     CDS             41470..41799
+                     /locus_tag="RhooCS_00705"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00705"
+                     /translation="MKETKRFFNKNNRLNKGYAKTFSVNEPDNNFYRKNFEHILPPID
+                     LISEYESIYPGTLQELMHMAQKEQAHKHAIDLKNLKIQERVAKLTRICLLIFGICLVV
+                     SIFFKTF"
+     gene            41977..42420
+                     /gene="infC"
+                     /locus_tag="RhooCS_00706"
+     CDS             41977..42420
+                     /gene="infC"
+                     /locus_tag="RhooCS_00706"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P03000"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Translation initiation factor IF-3"
+                     /protein_id="Prokka:RhooCS_00706"
+                     /translation="MHGVVNIREALDMAERAGLDLVEISPNAVPPVCKILDFGKFKYE
+                     SKKRLHEARKKQKIVVLKEMKFKPNISIGDFETKLRKIKEFLKDGDKVKISLWFKGRE
+                     ILHKEVGQELFKRIEVGLEGLVKIDQHAKMEGKQMIMIVSPDIKV"
+     gene            42700..44004
+                     /gene="sucB_2"
+                     /locus_tag="RhooCS_00707"
+     CDS             42700..44004
+                     /gene="sucB_2"
+                     /locus_tag="RhooCS_00707"
+                     /EC_number="2.3.1.61"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P0AFG6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Dihydrolipoyllysine-residue succinyltransferase
+                     component of 2-oxoglutarate dehydrogenase complex"
+                     /protein_id="Prokka:RhooCS_00707"
+                     /db_xref="COG:COG0508"
+                     /translation="MPIKILMPALSPTMTEGNLARWLKKEGDKVNPGEVIAEIETDKA
+                     TMEVEAVDEGILAKIVIPQNSQNVPVNSLIAVLSEEGEEKADIDAFIAKNNNVSPSVN
+                     VEEQGQLNSQSFRQDEFKDESAQRTLVREHRRVPQNSLVSSFVNDAVNSKIFASPLAK
+                     RLTKMGNIRLESVKGSGPHGRIVKQDILSYTPNIVHNKIVSRNPEEYRLVSNNNIRKI
+                     IAKRLLESKQTVPHFYLSIECNVDKLLDIREDINKSFSEDKSTRISVNDFIILAVAKA
+                     LQEVPNANASWGEDAIRYYNNVDISVAVAIENGLVTPIVKNANQKNIIELSREMKELI
+                     KKAKDSKLTPEEFQGGGFTISNLGMYGIKNFNAIINPPQSCIMGVGASAKRAIVKNDQ
+                     VTIATIMDVTLSADHRVVDGAVGAEFLAAFKKFIESPALMLI"
+     gene            44171..45238
+                     /gene="prfA"
+                     /locus_tag="RhooCS_00708"
+     CDS             44171..45238
+                     /gene="prfA"
+                     /locus_tag="RhooCS_00708"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P0A7I0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Peptide chain release factor RF1"
+                     /protein_id="Prokka:RhooCS_00708"
+                     /db_xref="COG:COG0216"
+                     /translation="MSFSDNLAKILDKYENLGKKLSSGIMGDEFVKASKEYAELEDVV
+                     AKIKEYNKAKSELEEANNFKLEVGLDNVILEMIEDEIHTLENSLPKLERAVKIALLPK
+                     DDADSKSAIIEVRAGSGGEEAALFAAVLFNMYQRYAELKGWRFEILAISDTGIGGYKE
+                     ASASIKGKDVFSKLKFESGVHRVQRVPETESQGRIHTSAATVAVLPEAEEVDIKIEDK
+                     DLRIDTYRASGAGGQHVNTTDSAVRITHIPTGITVALQDEKSQHKNKAKALKILRARI
+                     YEEERRKKEQERADSRRGQVGSGDRSERIRTYNFPQGRVSDHRINLTLYKIDEVVKNG
+                     QLDEFVEALIADDEAKKLSEI"
+     gene            45360..47123
+                     /gene="recJ"
+                     /locus_tag="RhooCS_00709"
+     CDS             45360..47123
+                     /gene="recJ"
+                     /locus_tag="RhooCS_00709"
+                     /EC_number="3.1.-.-"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P21893"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Single-stranded-DNA-specific exonuclease RecJ"
+                     /protein_id="Prokka:RhooCS_00709"
+                     /db_xref="COG:COG0608"
+                     /translation="MKPQASINGKIWQQKLINEDIVTELCRSFKISDLLARIVSLRVN
+                     NLEEVENFLIPKIKNLLPDPFHLLDMKKAVDRTVKAILNNQKICIFADYDVDGATSAA
+                     LLKNIFRDLNIICDIYVPDRIAEGYGPTPFAMQKIKDNGTELLITVDCGAMAHEALKY
+                     AKDLNLDVIVIDHHIATEILPDAVAIVNPNRIDEKSEYKHLAAVGVAFLFATAILSNL
+                     KKQNYFTQTLLQPNLMKYLDLVALGTVCDMMKLTGLNRAFVASGLKVMQQRQNIGIKT
+                     LYDMAGLNEIPKCYHLGFILGPRINAGGRVGKSSLGANLLSTSCSNEASKLAEELEKH
+                     NNERKVIELLMIEEATEIALTQQDSSLLFIVKEGWHPGVIGIVAGRLKEKFDKPVAVV
+                     ALNDGIGKASCRSILGIDFGAEIINAKSKDLLIAGGGHAMAAGFTVTAEKLQELQNFF
+                     NNAFRISINKLENYKYAEYDIDLTVNGVNFPLMEELNTLEPFGQGNHEPIFKFDDLFV
+                     LKADIVGSKHIKCMLAPNKRGFGNKALSAIAFNSVGTSFEEVLLSPKAKNIAAIGTLK
+                     TNNWQDNYTIQLIIKDILLKE"
+     gene            47527..48903
+                     /gene="rho"
+                     /locus_tag="RhooCS_00710"
+     CDS             47527..48903
+                     /gene="rho"
+                     /locus_tag="RhooCS_00710"
+                     /EC_number="3.6.4.-"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P0AG30"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Transcription termination factor Rho"
+                     /protein_id="Prokka:RhooCS_00710"
+                     /db_xref="COG:COG1158"
+                     /translation="MNTTNKESTEELNNTESNNNHNNFAENGNIINLKQLKRKLPEEL
+                     QAQAEELKIENINSLLKQELVFAILKKSVEQGGLIVGEGVLEVLPDGFGFLRSPEVNY
+                     LAGPDDIYISPSQIRRFGLRTGDTVEGQIRAPKAGERYFALLKVNRVNFEDPSKAYHR
+                     VHFDNLTPLYPDEKLGLELENNSKDSKDFSTRVIELVAPMGKGQRALIVAPPRTGKTV
+                     LLQNIAHAITTNNPEVFLIVLLIDERPEEVTDMQRSVRGEVVSSTFDEPASRHVQLAE
+                     MVIEKAKRLVEHKKDVVILVDAITRLARAYNTVVPSSGKVLTGGVDANALQRPKRFFG
+                     AARNIENGGSLTIIGTALIETGSRMDEVIFEEFKGTGNSEIVLDRKIADKRIYPAIDI
+                     TRSGTRKEDLLIDKIILNKMWVLRRIIDPMGSSEAIEFLLKKLENTKTNNEFFEMMKS
+                     PERPKNGL"
+     gene            49042..49956
+                     /locus_tag="RhooCS_00711"
+     CDS             49042..49956
+                     /locus_tag="RhooCS_00711"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00711"
+                     /translation="MSITPDYLIERRQIKSRLLIWKLAAIILIAIVFLLVGKDFAPKE
+                     VLPINSNEDYIASVLIDEIILEDEKRDKKLKKIIDDSHINALIVNVNSPGGTVVGSEK
+                     IYNILRKISEKKPVVIVMGTMAASGGYLISLGGDYIISHNGTITGSIGVILQTAEVTE
+                     LAQKLGIKFNNFKSGELKAVPNPTEKLTEAVRVAIMENIEDTYNFFLELVSERRNLPI
+                     EEVKKLADGRVYSGRQALKLKLVDAIGSEDTALKWLQEVKKINANLLVKDYQLKPKPK
+                     LMDIILEDFDSIAPSFFKNSFNGIKAIF"
+     gene            49959..50201
+                     /gene="ihfB"
+                     /locus_tag="RhooCS_00712"
+     CDS             49959..50201
+                     /gene="ihfB"
+                     /locus_tag="RhooCS_00712"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="protein motif:HAMAP:MF_00381"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Integration host factor subunit beta"
+                     /protein_id="Prokka:RhooCS_00712"
+                     /translation="MVTKNYLIDKVHDKLNYLSKEDVKDSVDLILDYLSRSLKEQERI
+                     EIRNFGNFSIRKRKFPESNKFYNIVYYRMPKNLFKE"
+     gene            50288..50767
+                     /locus_tag="RhooCS_00713"
+     CDS             50288..50767
+                     /locus_tag="RhooCS_00713"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00713"
+                     /translation="MALHIEDLELFKKILSIDGKLVIQALNIDSLMYHDIIGNGKYDS
+                     FFEALYNYLNDSKPAIIPLVSNKKEYYPIFEEVCNESLKEKISSIMTYLEKESDDHPR
+                     WEYEETLEYYLETRKNYDNPKPEPEIEKSEEEPNLNYAELDLKYYEESLDYYLNVIG"
+     gene            50845..51036
+                     /locus_tag="RhooCS_00714"
+     CDS             50845..51036
+                     /locus_tag="RhooCS_00714"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00714"
+                     /translation="MIRYLIILFASIALIGCTGQKTTKSKEVVELDGDPSYAIMKTIY
+                     NTNRNIANTTSSLPSTPVR"
+     gene            51039..51785
+                     /gene="yaaA"
+                     /locus_tag="RhooCS_00715"
+     CDS             51039..51785
+                     /gene="yaaA"
+                     /locus_tag="RhooCS_00715"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P0A8I3"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Peroxide stress resistance protein YaaA"
+                     /protein_id="Prokka:RhooCS_00715"
+                     /db_xref="COG:COG3022"
+                     /translation="MLVIISSAKTLNFEKLAPKTGLTSLIFPNLTNQLLSTLQSYSEN
+                     QLSEIMNISAKLAHINKERFKDFNNKESKAAIFAYAGDVFNNIHVEKLTNHELNFLQS
+                     HLLIISGLYGALKPLDAIKPYRLEMATKLNEINLMSFWQDEITDYINKVLAKHENKYL
+                     LNLASQEYSSVVNPNKLKYQLVNIHFKENRNDKLSTIGINAKKARGNMVNVIANNLID
+                     SPELLKNFSYLGYEFSTKHSSDSELVFIKE"
+     gene            complement(51939..52286)
+                     /locus_tag="RhooCS_00716"
+     CDS             complement(51939..52286)
+                     /locus_tag="RhooCS_00716"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00716"
+                     /translation="MYKELIEAITTKDTVTAQQLINEMDISELMANDRGSTLLNLIRH
+                     NHLSSVCDTFIDKLTDQVTSEVNDYYKPLINSMAENLKNMIYTSINLSKECEEQQNSN
+                     SSYTDHDTDVLGR"
+     gene            52965..54113
+                     /gene="intS"
+                     /locus_tag="RhooCS_00717"
+     CDS             52965..54113
+                     /gene="intS"
+                     /locus_tag="RhooCS_00717"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P37326"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Prophage integrase IntS"
+                     /protein_id="Prokka:RhooCS_00717"
+                     /db_xref="COG:COG0582"
+                     /translation="MSVKSLLFTKEALHEIKAPQAKRDVYKDTKEKGLLLIVSYGGSK
+                     IFYLGTVLDKKYHRIKIGVFPDLSIIDARAKASELKGEIAKGYNPVAEKIRLAKELTF
+                     KELYDKYLNEYSKINNKRWKDYAASVDRYAKHLYPRKISTIQKTDIQELFNNLTKTGK
+                     YGANRFLEVLSPVFSKAIEWELLTINPVIGIKKHKEQSRDRYLTREEIPRFFTAIAGE
+                     ENQVMKDFFLIALYTSVRKDNILTMRWEQVSFADKQLYLPDTKNGDPHRLPLLDQAVE
+                     ILKARKEQSTSEWVFPSETSSSGHLQEPKKAWKRICKKAGIENLRIHDLRRTIPSWMA
+                     MTGANQYVIGQLLNHRDPRSTAVYARLATDTAREYMQKAINAIINTKS"
+     gene            54329..54967
+                     /locus_tag="RhooCS_00718"
+     CDS             54329..54967
+                     /locus_tag="RhooCS_00718"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00718"
+                     /translation="MNIKEKDKVLSCFDVANYFLVLVDREAGDSITQLKLQKLMYFAQ
+                     GIHLALFDKVLFEEEIKAWKHGPVVPALRSIFGSFRDNVIPLPGEIDFAIYDLATKKL
+                     LHKVYSFYGEHSAAYLRNLTHTHSIWYEAIENTDTTITKEQIQEFFKANIINDIKDYL
+                     LSTTKEDIAQIENAEDGWWMNYDSGVPAEDITEYLLKEKKKKQVIKIESHLV"
+     gene            complement(55084..55254)
+                     /locus_tag="RhooCS_00719"
+     CDS             complement(55084..55254)
+                     /locus_tag="RhooCS_00719"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00719"
+                     /translation="MFRNDVELKLECLKLAIGSCCSYDAVDLAKQYYRFLVENSENVP
+                     VQFLFNNKANLN"
+     gene            55480..55788
+                     /locus_tag="RhooCS_00720"
+     CDS             55480..55788
+                     /locus_tag="RhooCS_00720"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00720"
+                     /translation="MNNNCANQRLYWSLSTPLKYMGLSLDEWLVILLGIVPGIVLLNS
+                     GHAKLGMICIIAGVVLCYAFKKFKKLSEYFVLKSYLVAKKWLYAPTSYPNLLGKKIGK
+                     "
+     gene            55788..56342
+                     /locus_tag="RhooCS_00721"
+     CDS             55788..56342
+                     /locus_tag="RhooCS_00721"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00721"
+                     /translation="MDHLFKQSSIQQLVKYNKRLLLITLLLAFTSLLGMIKTVSTEEK
+                     WLLIPAMEPDRRMIVSSKSYHETYLKEWAVFVMKELFTTSPEGVERQIADMKVVSSNT
+                     EQLDKFFKEHLNFVKGSNISSVFFPKKVKVIEDGVLINGTFRYWFSENKHIAADKTYL
+                     LTYKRGANHLLLLTGIKEEEANKQ"
+     gene            56339..56794
+                     /locus_tag="RhooCS_00722"
+     CDS             56339..56794
+                     /locus_tag="RhooCS_00722"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00722"
+                     /translation="MKSLKSELQILVVFVGIMLASFSSNAYGISYMLHADSLLELQIA
+                     KNAPTRINIEGEKINDIFIHPQEAAEVVVHDSGCLFILPQQDNSKLYLTLIGENGTTQ
+                     DLILNFTKTKPAPIRLIKFDLEKEVTKLTNNKEDKHHECKKQRCNRKRK"
+     gene            56754..57086
+                     /locus_tag="RhooCS_00723"
+     CDS             56754..57086
+                     /locus_tag="RhooCS_00723"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00723"
+                     /translation="MNVKNKDVIEKENNKQYLRIIYPLLPVLLIFCVNVILSEVALGE
+                     TLEGQLDRIGGLSTGKLKTIGISGATILSSIWAVVRGNLRLAGAIVAIGIILGFYLEW
+                     VSSGMKIS"
+     gene            57112..58530
+                     /locus_tag="RhooCS_00724"
+     CDS             57112..58530
+                     /locus_tag="RhooCS_00724"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00724"
+                     /translation="MDQDFNKQEELQSTVEDHKLPSAFSKRLSGLIEIIKNRPLVTLA
+                     CIGVIMVLVFYGLSESEVKASRDLQEDRQSREISGIEKAIDPRAKWTAEILNEVKNMQ
+                     NHLEKLIENKYLETKTKIDDFSQKLESLEKPHEETILYDGNDFNNNQKIEDLLDNNFE
+                     QSIVAAPTAPVKRLLGYVKRADLRIKKDVKDYITTGSFARGVLLTGVVVGTGTNNSAS
+                     PEPIMIRLVDAAIFSKGYKTEQIKEAILIGSCSGDISSERAKCRLETVSLLNSNGEII
+                     EKPVEGWLIGEDGRPGIKGIVVDRSSDIARMAVLNGVLGGIAQFFQNQASNSIFPVSP
+                     ITGQQNALKAQDSLKAGVYAGTGNALEKLADFAIKRAESMSPVIVVASGRVIDVVFRK
+                     GFDLRENKEADKVDRLLPPTTTDYSQNSTNYSNDQNYSGNKVTSFSKAKTKLQEHFIK
+                     DNGTDEMTDIDLQSEQQYPGNF"
+     gene            58530..58784
+                     /locus_tag="RhooCS_00725"
+     CDS             58530..58784
+                     /locus_tag="RhooCS_00725"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00725"
+                     /translation="MNNKIINLLLLLMLSFSVANCKLMPYRNNFDCPLPQGLKCKSLY
+                     EVNKMADLDIFNPNSNNDKPNFKSRYSARCFGRYNNDIRN"
+     gene            58768..61287
+                     /gene="traC_1"
+                     /locus_tag="RhooCS_00726"
+     CDS             58768..61287
+                     /gene="traC_1"
+                     /locus_tag="RhooCS_00726"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P18004"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Protein TraC"
+                     /protein_id="Prokka:RhooCS_00726"
+                     /translation="MISGIDKDFARERLAKHFVYESYDEESSLFFNRASVGFVLLGWP
+                     LVGTSLQAQGEIAEFLKSDENLPAGSSFQILMIGSDHIREYLDNWQLHRKNTIFAELS
+                     SRRTKFLEQKAKEEGNIKDVVLLISVTIPMLTIDINEMIRRREVLQDTFKSIGLTTYN
+                     VEATLLLKFVRLIFGWMEEEHPELNPYEILSEQILPGNFSLYEKEDYVVLNDNQIFIA
+                     LEAGKRPSEWRLSAMDLFLGNELRRDEYIRANFLIHFGLQIIPNQLVAKTSAITKREA
+                     LERNINAGMGKFFPNLQLEAQDLAGAVACLQSGDRVVNIHLNVIMWDQKNKAKGAASQ
+                     FCSQLRRSGWYFVPCKYDHLAVVLASLPMQLVEAIPNSLVGKFNRFNNIFNKKTRGIG
+                     VALSNLGRGIRTIASESKVLLPIIGEWKGDLSSPGMLLTGRRGQIMYWSPFGSALIGS
+                     NLYTASAAPNENFNLCIAGVPGSGKSVFMQELMLSVLGTGGRVFVLDYGRSFKRTCLL
+                     LGGNYIEFDVKNPISINPFSEIPAGGSEDSIEAQADFLASFPSILATMAAPQYGTNDL
+                     QQPMLQKALIAVWQEKGARAEITDIADWLLKREESYAQELGNMLFPFTRDGQYGKFFS
+                     GKAKLSLSSDIVVIETDHLRSSPALLAVIVQIMIVHINQSMVKGDRKRPFLIMIDEAW
+                     KLLSGKRSGEFIEEAGRIARKYNGSITLATQQLTDYFREAGSAAEKAFENSSHKVILK
+                     QNPESFKAMRANPKLAGFVDEDWKLNLLQSIHSNPPHYSEAAIYGPNVHGVVARLMLD
+                     PFTLMLTSTNARDYRALEDRMIAGMSVTDAINNILEERGLV"
+     gene            61302..61970
+                     /locus_tag="RhooCS_00727"
+     CDS             61302..61970
+                     /locus_tag="RhooCS_00727"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00727"
+                     /translation="MRRYLDIKIIVISFFVLFLAILQVSNVNADGVNKLGKSSKILDY
+                     GVRGHIFPIIEESLLEIIMARLKIVKQNGNLEKIQEEFQNRAKQKISRPTPVLALAKA
+                     NKNRSWYYDPSFIQKTDIKDQAGNIIVKAGTSVNPLEKISWGELLIFIDGDDEQQVKW
+                     AKLQIGRLVLTKGNPIELGQELNKQIFFDQGGVLTTRFKIKAIPAIIEQKGILLKISE
+                     IKIN"
+     gene            62036..62242
+                     /locus_tag="RhooCS_00728"
+     CDS             62036..62242
+                     /locus_tag="RhooCS_00728"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00728"
+                     /translation="MKKWQLPEAKQNLEKIIDHVLQGKVHAIVKSSGEVVYLIAGEKN
+                     NMIAEQAKVGCQANTDLVTSEIYK"
+     gene            62257..63213
+                     /locus_tag="RhooCS_00729"
+     CDS             62257..63213
+                     /locus_tag="RhooCS_00729"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00729"
+                     /translation="MFIIIILLGNYSYASIGCVGRFVNPITDVCWKCLFPITIGGVKI
+                     VSSSMADTNNPRQIVCFCPKPSIPMPVPGIPIGFWEPVRLVDVTKSPMCMVSLGGINL
+                     GTSMQKGVKDDIEGSSFYHVHWYIYPVIYWLEILLDFACLEMSQVDIAYLTEFDPLWG
+                     DDSKAAILNPESLLFGSITAQSACIADCVSCSSGSLSNDAMFWCGGCQGYLYPFTGTT
+                     SSHNGGVGSSALIVAKFMAKLHRELLLWGYMEREGLCSKYPMPIIKKSQYRLQMTYPI
+                     PEVHSCKKIGETEITWQQGREFPVKGEDFGYLIWRKRACCLF"
+     gene            63246..63680
+                     /locus_tag="RhooCS_00730"
+     CDS             63246..63680
+                     /locus_tag="RhooCS_00730"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00730"
+                     /translation="MQFNLKTIILTCLLILGSTSSLAQPEVLLHNIVQPKLETKTYNQ
+                     IYIFVSFSMPDSALKSYYIEAEQAGAKLVMRGLKNNSFLDTKVKADEINISFNIDPNL
+                     FEEYQITSVPAIIVNSEGKGVKRLTGHISLHDALEIMNKENS"
+     gene            63677..65476
+                     /locus_tag="RhooCS_00731"
+     CDS             63677..65476
+                     /locus_tag="RhooCS_00731"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00731"
+                     /translation="MRFTFLSMIIVCFSFNAIANIQDSYNQAIGYQNSIRLGNPDQMG
+                     NKVIFDKDTDISNLRNMSNQDLTKQGSQMLNNSSAGQLLQQSELKKIDALQEYDLNAK
+                     NPLISNSAKIEADPLSHTEGTALNASEKVIKTKISKSCSEGVEFEVDIIRNLILDAEL
+                     IDKWGDWQDKAIAFSGSEISNSYRHWLYPVFWKKKRHFGKRKTIYSMHMHNNQAIMLD
+                     VRAAIAGKLNVSLDHIDTYIGISPQGEGALTEGWDRDIVKWDRYVFTYKYRDKIKEFR
+                     EKGEYFQIVNELSETLVEENECHEIKRTCLESGNKLFFNRYNVNRPCFREQINYQCSS
+                     EPKDGCHHLKQQGCELTRSNCVKQSTSICLQWRRDYICMAQKKELSSSIAGSQMFCLG
+                     GDCHTATIVPNTDMGNVGYLAMLNEMKKDMQTNPISVFKGHASSCRKVNIGNFLNCCS
+                     GFKGWGKDLGLSRCNAEEKALALKKAKGQCYYVGTYCAKKDKIFKTCITKKSTYCCFN
+                     SKLARVFQEQCKKQLAIGFGTAQYANCRGFTVEELQRIDFSKFDLEELFSDLLDHAKS
+                     KMSKSFPQQLKNQMPIMQQQRFNNNCTDSNLSY"
+     gene            65481..66368
+                     /locus_tag="RhooCS_00732"
+     CDS             65481..66368
+                     /locus_tag="RhooCS_00732"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00732"
+                     /translation="MKWLVNTITKSSLAITLLVINLWLLINDWSNHAFAGTMELDSSN
+                     KNEMIRFNVNNQFWQQPQGFLWYNEDHVYKPEILKFSQDKKKQEPELEPYDQRIEALK
+                     KEFNRAQHKALDDPTLENVIIAQRLHKQILEKSHKFATMWQLATILDYKLVNMDEPVN
+                     SLHKKLYEVRQEEENSKKLRLLAKNWGLIMQVNQGCNYCQAFTPIVREFADKYGFQLI
+                     FVSNSETRFQGIPTIKDTGLLQTLNPAKLVPVLYLVDSSGKQIYLIAKGIISENKIAE
+                     NILLIVQYYNVLKVSDYDW"
+     gene            66358..67689
+                     /locus_tag="RhooCS_00733"
+     CDS             66358..67689
+                     /locus_tag="RhooCS_00733"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00733"
+                     /translation="MIGNNKFRRVIYIKHVIHIFMIVLLLQATTSYAWDLQDVFEGMS
+                     VNVTKPGSYQSQAAGYYAAGGLSMRTSKTAFNPISITPPTLTMSCNGIDSYLGSFSII
+                     SGDELVQLMKNIGSQAKAYAFSLGLKTFAPQIENALKDLRNLAMEMNQFAKGDCEMTK
+                     ALFASILPKDSAVRESVCKDLQSSSGFDYFAAGKKCRSDLEQKQALASIQNKDPELML
+                     TDYNMFTKAADKIGIPGDMRNAIMSMTGTIIVRDDNVYFFESLAQDEKSWITHLKGGE
+                     SASIYNCDNSSCLNPSLQKNIFVPQEQSYQGKAKTKLDELKSKLASNNEFSNTDISFL
+                     SSIGEAFPIYDYITLEAISGVTILDSSSELVASYSLLQHLKEVIYEVRKAVTMLKSKQ
+                     VADHHLTAYLKALDRVQLFAQEKWSNMLTSSDQIDRRARLIEQHLIAKERA"
+     gene            67772..70501
+                     /locus_tag="RhooCS_00734"
+     CDS             67772..70501
+                     /locus_tag="RhooCS_00734"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00734"
+                     /translation="MADYVIHTFGGGDILWQIFNGIGRVFASNSEYFTPVGKFALTIG
+                     GIWAATRAIFRGNIGIFAMEWFFPSLFIFIFLFAPKANVWLKDEISMQAPVKIDNIPI
+                     GVALFASISSKISYSLSETLEKHLLPPDEGLSSRKNGIMFGAKAIGKIKDIQIEDPVT
+                     LTNAKEFLRQCFMKPYIIGNILGKKAEAQRASDIIAFIEQNMPNNFGIYYKDSSNSAI
+                     SFKTCKQVTPLIKVAINKELNDGLLTKFANIIGISSGKQEILSSRLKTMTSDTLKYLK
+                     KEQTDIHQWMRQAMLLNANREAYDDLREKFSLSRIYPQLVSMNVTRGLFQQSFSYLVA
+                     GEMAANIMPILQSVFFALVICLIFVVFPMSMLPGGYTIFKTWITLIIWVTSWPVFFTV
+                     IHCLGMISLSGKSGTNHFTGLNILSQGSFSEILLHEFATFQMLAASVPMLSWAVLKAC
+                     AHATTTLVNQFSPVPVASSIGANIADNNLSMDNYNIGNRTIAQQNLTPTLQLAGGIID
+                     DGGMRVTSTDSGRQVLAQAVDSLVNNYRSSKLLQDSYQSQFMSSQSYLDSLNDRYSDL
+                     TTTGNSIATEIGKRLIYEEAKSIGITDSQYLALQQMNSDSIAATDHTGSSNRKGTGTS
+                     AEGSIGLNTMVGTAISRVASRNDQEQDQGKSVNQQQSYNEALSKIKSATKDGRLSNAN
+                     SNVQSLSNNLNSNFSEQQSVGQEITRTKQNLEQLSYNMNYVSQNSAAIDRNLNEPVLN
+                     AIVAKNIPGVSSKEQAAMWASTHQQEAEQIALDIAKINNTIPQNLSSTSSSHIPTKEN
+                     LRSSFDENKQRLNDQAAISSIDDRKNDVYDKSIEQMLIQSVDNNEVEKVKLLEQLSAK
+                     VEDKKIQIQNEFNKTPESTIVRTSQKIADNLEISSKAIKKRNIKLPGYKNENN"
+     gene            70511..71680
+                     /gene="ycf3_1"
+                     /locus_tag="RhooCS_00735"
+     CDS             70511..71680
+                     /gene="ycf3_1"
+                     /locus_tag="RhooCS_00735"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="protein motif:HAMAP:MF_00439"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Photosystem I assembly protein Ycf3"
+                     /protein_id="Prokka:RhooCS_00735"
+                     /translation="MQNIKKLAIIAILPLIFSKIILAESTTSIVNEKLQQMGQQGHIQ
+                     DPNILAEEYFNIGRSLNKLGKYQEAIKNYDLAIKYKSDCAKCYNNKGMTLNTLKQYQE
+                     AIDNYDLTIKYDSSFAEAYNNKANVLCTIGKHREAITSYNLAIKNKQDFAVAYNNKGS
+                     ALNDLGEYQNAIENFNLALKYNSRYPEAYYNKGISLINLGQYQEAIENCDLAIKYKPD
+                     YANAYYNKATSLMNLGKYQEAIESFDLAIKYKLDDEATYNLKGYTLSILGKHQEAIKN
+                     YDLAINHKPNYAAAYCNKGTSLRKLGKHKDAIKSYDLAIKHQDDYSESYFEKGIVLVN
+                     LGKHKEATKNFNLALKYRPNLIEEYERAIKGLRKLGNDLMANEFEEKLKIMQDNL"
+     gene            71685..73376
+                     /gene="traD_1"
+                     /locus_tag="RhooCS_00736"
+     CDS             71685..73376
+                     /gene="traD_1"
+                     /locus_tag="RhooCS_00736"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P09130"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Coupling protein TraD"
+                     /protein_id="Prokka:RhooCS_00736"
+                     /translation="MQPQNQNNFTRGSQIFAHQMRMLGQGSINALIVGLVFTVSWLIW
+                     RVFQKLSLISLYYFIIERYVQLKLAIGEYFYPISQIGIKFYYLEQKAWIYHNAGEFIH
+                     KFWYVTPHSHNINQFRQFLLHSAWQEGIITFTVGIFTAIIFFMYRGKKAVIQDKIRGA
+                     DFVEAGILAKMLYKNKQAANICFSGLPLVKDSERRHILITGTTGSGKTNMINELLPQI
+                     RKERGRAIIVDLTGSFTDRFFDPKCDKILNPLQENSSAWLPWNDCHEIWDYNDMASSF
+                     SNYNPKLDDFFAKSAELVLAEGLRLYQDSKDIKKLINTILYANNKEFVRIFKNSAVVG
+                     IISSSAPETSSGIQATISKNIEALQHLKPDGRFSIRKWFTADKGWLFITSTPNQRVML
+                     RPLIAAWISIAIKALMNRNINNTHSNMWFVIDELPALQKISSLPIALAESRKYGGCIV
+                     AGMQNIHQLEEIYGSAGAASMLDLFGSKFIFRVSDWQTAHKSALMLGEQEIIETQENL
+                     SYGANSMRDGVNMHSLEKRKLLVMPSEIMNLPDLTCYVKLVGNFPITKLQMNLQT"
+     gene            complement(73579..74586)
+                     /locus_tag="RhooCS_00737"
+     CDS             complement(73579..74586)
+                     /locus_tag="RhooCS_00737"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:ISfinder:ISRor2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ISNCY family transposase ISRor2"
+                     /protein_id="Prokka:RhooCS_00737"
+                     /translation="MSEQGNLLGDPDKDKKKAKHDKIFRKALENPLVANEFFNAHLPP
+                     NIKSLIDFPSLAMENTTFVESSLKDSISDVLFSCKFDKQDGYLFLLVEHQSKTDHFMA
+                     FRLFKYMINICERYLIQNPKSKTLPLIYPMIFYNGQEKYNVARNLWDLFANNKLAREL
+                     WINDYQLVNVHEIPDEEFKQRIWSGILEFFLKHIHERELLKRWQEISDILPELIKITI
+                     GYDYLEMILYYTLTKIEQADKIKLENLLSTKLDPEIGTRLMRSLAEHWQQEGKEIGIL
+                     EGLQVGKAQGIQIGKAEGKAEGEYNKAVEVAKKMLAQGCNVSLISSVTGLDEAFISSL
+                     E"
+     gene            complement(74631..78779)
+                     /locus_tag="RhooCS_00738"
+     CDS             complement(74631..78779)
+                     /locus_tag="RhooCS_00738"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00738"
+                     /translation="MAIQFARIEIVGRSSGGNSCCKAAYNARLIIKDERTNVTYNFSK
+                     KGDNVYHAVLLPSHVDQKFKNPSILMNEVERSEKRKNSQLLKDIVIALPDDKELDLDD
+                     RIAITHEIIEEMGWVRNGLGVQVDIHKPHDGEKNWHAHVLVTTRRFAKDGKTLGAKAV
+                     DLNPKFAKVKGKAFIIPEDQIIHERAKEVINKYFAKLGLEIRVDPISFSPEQHVGPTR
+                     MRSIINEIAEQNKICKLAHLEIVKNSDGVLNRIIRHQAIFTKLDIEKAVKEIPEEAEK
+                     QKLIREVLNSDRLVKLYNEDGTDTKYYTTQDIRDEELRILRIADKINNQIHFNNVIKL
+                     KSDIDNLVSVNEVQRASLQHILINSQGIRILQGRAGTGKSQVLAEGYKIATHHGQNII
+                     GLAPTHKAASELKSKGYQKCHTVKGFLFKLYNGKADLPRNSLLVVDEAGMVGNSDYLE
+                     LLKVARSNNCNLILAGDERQLTSVERGGMFTVLASKFGSYELSNIRRQSKAWAREMAS
+                     CFAKSDIAGGLRLLAQHKCLKIDHTLEESMARLINDWSNSKFALNERLIITIRNAEVD
+                     SINQGIRELLKAKGLLTGQEYRCYLPTQQYEDYMAGDRILFKSTNKDLQIENGEFATI
+                     TLVSNDRLIAKTDSGKEIEFNPGEVSFKHGYASTVYKAQGASIKDVYVLHNLAGNSRN
+                     SYVAMTRHIEEVKLYYNRKATRNMTSLISQLSKIDNRLSSINFKTLEELVAIQDQENK
+                     SHNIIDKVGNWFKGIIEDIQDRLHSNDNYYQPKVKLEPPAKVAEILRNTSTNFAASHK
+                     AQEEQKSSSYNLTNCNKQNTTISVKLQEDIMAKNKIDYNAINKQEALELKQKLSFKAE
+                     EIGRSLLGSPNKHLSNSQLLRWEKDGKIAMKIGGSKAGIWHDFSTGEGGDLFTLVQRE
+                     KNCDFVEAKKYLQDMVGMSTNGGKYLAANLAADKNKQIKTQTEQEAEIVKIKRAEILY
+                     EKSDSVKYSMPNNVAKRYLSEHRGIKEVLTRYQLSNDLRTNMMWDNSSKKYYPALIAF
+                     ARNKDGNITGGQSIYLNKDTNNKADIEVNKRSFGKIKGSFVEINKNNEQQNVQSRNVQ
+                     SSKDGNNSASNVTVIAEGVETALSIREAGIKGKILCSLGVSNIRNYEPIKGERIIIAA
+                     DNDGKDAVSVNTVIKAQEELISKGAIVSIIRPAEKGDFNDMLKSQGAESIRNFLEPEI
+                     IKLTAASKATELKSSLKASDDSKSQIKSIELLFSKMVNNDNNGLNNLQQQQITALAKF
+                     GTAENINTAMQLYREKGIDSCMFYSNKICIAAIEQKIQEDLQIMKNKFDPNYNLGDKK
+                     FSDIVIYDFQGKSHLVPEDYLNAIGRDKQVMQYISPSSEIAKEIKSAVQQVSEHKLSQ
+                     GIRV"
+     assembly_gap    79066..79165
+                     /estimated_length=100
+                     /gap_type="within scaffold"
+                     /linkage_evidence="paired-ends"
+     gene            79703..81427
+                     /locus_tag="RhooCS_00739"
+     CDS             79703..81427
+                     /locus_tag="RhooCS_00739"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00739"
+                     /translation="MRNANVTNKTDNNDFEKIYWYAINWQEVNKKVNNLRRRIYRASA
+                     NGNIKLVRSLQKLMLRSRSNKLLAIRRVTQINRGRRNPGIDKIVVNTDKERNLLMEKL
+                     TNNNLSSVKPIKCVYIPKRKGKLRPLGLPIILDRCMQTVVKSALEPYWETKFEGSSYG
+                     FRPGRSTHDAIQRISAIVCPGTTRGWILDADIKGAFDNINHNFLLKIIGNFPARNWIK
+                     AWLKSGVMEEYQLTKTTVGTPQGGVISPLLLNTALHGMEDILNITYDKYDHLHPKSEY
+                     ALVKYADDFIVCAKSESSCTKAKQIINDWLNIRGLTLSEEKTQILHIKEGFDFLGFNI
+                     RQYNTKSTRRGVTLLVKPSKDTIKSFKKRMMIEWKRSFSWEIDRIIENLNPRIMGWCS
+                     YFNKVISKRTFIQLDRWMWMRQARFAYRRHPNKYWWWLKEKYWGRIKARNDNWVFMDK
+                     SKDLYLWKLQWTAIKRHILVKGKASPDNPELKEYWQKRQASKPKYFFKIRQILWRRQE
+                     GKCPVCLDSIDNGENVQVHHKRPTRCGGTDHINNLCLLHTNCHRQVHSKRGQLISAVS
+                     KLLEPYAG"
+     gene            81408..81481
+                     /locus_tag="RhooCS_00740"
+     misc_RNA        81408..81481
+                     /locus_tag="RhooCS_00740"
+                     /product="Intron_gpII"
+                     /inference="COORDINATES:profile:Infernal:001001"
+     gene            81762..82037
+                     /locus_tag="RhooCS_00741"
+     CDS             81762..82037
+                     /locus_tag="RhooCS_00741"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00741"
+                     /translation="MDNVIKRRLKLEQKKAKIITEEARLKIQERKTRTRHLIEMGGLV
+                     VKAKLDYLPNNSLLGAFISLKNELVKHPDILDQWTKIGKNAFDNSLS"
+     gene            complement(82169..84367)
+                     /gene="apxIB"
+                     /locus_tag="RhooCS_00742"
+     CDS             complement(82169..84367)
+                     /gene="apxIB"
+                     /locus_tag="RhooCS_00742"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P26760"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Toxin RTX-I translocation ATP-binding protein"
+                     /protein_id="Prokka:RhooCS_00742"
+                     /db_xref="COG:COG2274"
+                     /translation="MAGTMIKGALVTGEYGLPAVIRAAKHFQVVVTEESLGHKLGIDC
+                     RQLTALDVCRAARQAGLRAKCYQEGVNSAIEDLPLPILCCLNGRWSVIEKIESGYLLR
+                     YDFFSNQLCREPLPTFTTTIKTTTPKLTDPINDDNIDSDIHTNIPIILLAEQEIQVAD
+                     VKFGLHWFLPSILRHIGQLRDVLALSLLLQLIALVSPILFQNIIDQVLVSRGLSSLHI
+                     LALAMLSLAIIDPLYSYLRSKIFTNLASKVNAELSARLYRHLLTLPLDYFTQRQTGQI
+                     IARVREMNQIRQFLTGSALMLVLDSIFILMFIVVMFNYSHILAWLVLGSLVLYALFWL
+                     MVGPVLRYRVNKEYDASALATAYLTKTITGIEVLKTTATEASFLKRWQQVLALQLRAT
+                     FSAKKVAIAAGQAISLIQKLTSALLLWWGVKIVLIGELTVGELVAFNMLASHVTQPIL
+                     RLVQVWQDFQHTLIALRRIGDILDTESEAGSKGVASVPKLQGKIEFQQVNFRYQVDTP
+                     EVLRDLSFTIQAGEFIGITGPSGSGKSTLTRLLQRLYIPRHGQILVDGMDIAIADPAS
+                     LRCNMSVVLQDNMLFAGSISDNIKLCCPEVSEDEVIQAAKLAGADNFINNMPQKYQTI
+                     LGEKGSGLSGGQRQRIALARALLVNPKILILDEATSALDYESEAAIMANMESICHNRT
+                     VISIAHRLNTIRHANRILVLDQGQIIQQGAHTELLQQHGLYAKLWDMQNS"
+     gene            complement(84352..85806)
+                     /gene="hlyD"
+                     /locus_tag="RhooCS_00743"
+     CDS             complement(84352..85806)
+                     /gene="hlyD"
+                     /locus_tag="RhooCS_00743"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P09986"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hemolysin secretion protein D, chromosomal"
+                     /protein_id="Prokka:RhooCS_00743"
+                     /translation="MTDVFQLIRQLFVKLSATISKWIHKWLEWLRIACHFNHHSRDSC
+                     NSYQQYEFLPSYLELMERPPSPTARVTAIAISIIVLLSFIWAYFGQLDIHATASGRLI
+                     LPSRSQIIQSYELSEIVEIPVENGQHVQAGDKLLVLNIVGSDQDIQRYLEQKSFQQLE
+                     LARYRSLLSDDPLKSLEIPNDIDESTATRTRALLASTWQEHQAILAKFDTELTTNQHE
+                     QIANQTSLDGLQQLQHNIQKRLIPCRKLASSNFVSKTELLTREKEELETKLSIDVKQK
+                     ELKILQARADTILESRASYIAQKHREWHDNLNKAESALLIAQQELSKAQDRARLQVLH
+                     APLDGIVQQLSVHTIGGIVQAAQVLMIITPHDTPQQAEIDITNKDIGFIKPGQSVTVK
+                     VEAFPYSRYGTIEGKILSVSLDSVKRNEQSNPELVFPAQIELAQNYILIGDESVVLTP
+                     GMTITAEIKIGRRRIIDYLLSPIREYKAEAWREP"
+     gene            complement(85806..87932)
+                     /gene="ltxB"
+                     /locus_tag="RhooCS_00744"
+     CDS             complement(85806..87932)
+                     /gene="ltxB"
+                     /locus_tag="RhooCS_00744"
+                     /EC_number="7.4.2.5"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P23702"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Leukotoxin export ATP-binding protein LtxB"
+                     /protein_id="Prokka:RhooCS_00744"
+                     /db_xref="COG:COG2274"
+                     /translation="MTEEVRTAIGCSQLLLQLAGIKTTEDTAPLSNMSNNRLYNHASS
+                     SSIDSSLKELSKTYGVKLKQKKLTYKKLTVKSLPLAFLATDGEYRVLAKMDQDNGLVQ
+                     HPFKSNAELWSKDQLRHSWSGKVIILSAPLLKFDLAWFIPAFWQHRRMLAEILLFSLI
+                     LQLLALVLPLFFQVVMDKVLVYKTYTTLDVLVFGLLVTSIFEVILRGLREYQYIHTAN
+                     RIDILLGVKLVKHLLGLPLLYFKNRQVGSLVARVRELDSIREFLSSSLFTLAVDISFM
+                     GIFLAVMWIISPLLTLVVLASLPFYAIIAWCVTKPLQARLETMFRYMAANTAFLTESI
+                     AGAETVKSLAVEPRLAQRWETQTRDLVNASYHNQILSSLSDHSVQGLGKLTGIVILWY
+                     GAESVINLDITLGQLIAFNMLSQHFLGPIAKLVELWRKFIQAQVAVDILGDILNLPTE
+                     QETAGKQQELTGEIILKKVAFRYQPTTPLVLQDISLHIRAGKQIGIVGESGSGKSTLA
+                     HLLLRLYLPEQGQILFDGESLNTLDIVNLRQQVAVVLQENLLFNRSVRDNIALSFPEA
+                     SLESVVEVAKLAGAHEFILRLPMGYDTLLAEGGSSLSGGQRQRIAIARALLTKPRILI
+                     LDEATSSLDYQSQAIIQANMAEIANNRTVITIAHRLSTVKHCDCIIVLQQGKIIEQGT
+                     HQLLLELGGKYAHLWQLQQDLQREAS"
+     gene            complement(88052..91564)
+                     /locus_tag="RhooCS_00745"
+     CDS             complement(88052..91564)
+                     /locus_tag="RhooCS_00745"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00745"
+                     /translation="MRYIGRKNKVDEITCSTTGGSGYKTYNVITGVGIISIDVFIDSG
+                     GGYSNDRKDVIKNCNYNKIVVRPYTEVMGGNGTYTFYVEVQGYEEKNSNSEINVQGKG
+                     TIVFPKISLLEECNQITYYSVNNTLSFEIVSGQNGTFTLDVQNYLGIDNKPSFILIDK
+                     YGSNIIPKLNLNDNSTTTVNIKRFELYTSYSLDSLSDVRDYYEDISYNEKDYEVFGVI
+                     RDKSEKNNNTLSHVFFGSLGSDIISIDKDTVFAEGGEGSDVYIVSDDISGSILISNKS
+                     EDKQLDVLTISSKDNVSLNRESYNLKLSITKRSSSITEVDNIVIENYFLGTEYQHLIL
+                     MDQNGDCFIPFELDEDLTLLPFYHASGRKNVFISPVDIKQVVTDSDLDNMQFYRDSND
+                     LLLLDKKNEGKNSYPLVVVLKDFYLDPLKWQDHQIYTGSYGDYTHHVDLLQKSRRALI
+                     FDKQYNYKNIIKEYVVDFNVPSRISHNHRIVNDTLHPVTQGQERIGIIIFKDISPERL
+                     KIDIMDDDIVISDKHSEYTVQIFNWCKSKLYAISAFEFDLGLNPIRINGLNKKNCSIS
+                     YLEEQISTATKLYDVNKQLEVNEYYNSHEYVLKCIMSISALNATDAYMAWGFASLHDQ
+                     IHFIQNCNLDLFELTRIRDQIRVENNQFAANVQYQRGFNIDLYKNKLLYNLQLQGYAP
+                     DKIKQYSNIINEHLTYDNIIDQIVSYTQQLPTSNTDAEHHRVVRAVNQVEETTNDYVV
+                     SSTASSISSPINYIFNLSANWFNTYIVSLKNPFSWITELYSKVSSQEQTILVKSKITS
+                     LDDDGVSIDVEYDEYENYDKSENTLGCDESIARKVQYDASNQVSSNINKSKQPFVNVK
+                     DVVLNIKNSASYYLNATASTIGNIIYNFGTKDSKQCGNSKYYYRTFTDCQYNVPQLYQ
+                     QVNDLSVSILFMTHLWKKYFRKEEVAKEDYPQLIEIDTAIIELWQDYINNSQELIKGL
+                     KKYKISDLEHYAEVLEIRADDISEIKQSMEVNGQKVSLTKISELKENLLTFSSHLAED
+                     IEYNKDFSQIKGKAHFVQLIKKNVSILITKQNYMESNHAKAGVEHTTNGTAKYRQFEV
+                     KPLPELFVMQQLNEDEDNVKTRGQNFIPVFETTKVRADHLIEAMSAMNNSSSSNNIGP
+                     GPFTAESVNIVLACLSQIPADSRI"
+     gene            complement(91596..97259)
+                     /locus_tag="RhooCS_00746"
+     CDS             complement(91596..97259)
+                     /locus_tag="RhooCS_00746"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00746"
+                     /translation="MKTSEKSSWNRKWHLKKGNIVNDGRELSLSPTKKNSLNTNPGVI
+                     KFLEQKNPQNLIRHRRSDANNQLQDTFTQINVPGDGSCLFWATTLDYLIPVKDNDAEF
+                     LRRFKKLFGEGEVNNVEHVRNLIKEYNPFSNSDAIRSNEIFNRLVTERLRNKVVDYIA
+                     VNKDRFKNFVTGNFDEYLRSMRNRNSWGGEPEIRAMSNILDATINVDSGGVSHSPYGD
+                     GSIPIQLYHVNTGGIQAGGNHYNFGLERNIVSNYQDAARHTGSQLSQTLYQAELVEHL
+                     FQANQNNNFQERFQSFIDQIPRPSGVGTAPAKKGFYTHAFAGMFTTLKNTELFDKLGL
+                     AELHFKFYDPLILKVVAIKENPTTKRLEEYIFVIFEKRYDNNYKEILFSTNDNEWLKE
+                     SKILFSTRDGQFHGGSRAHTRANEMDFKFGASVIISRLNGKDKLGIQIVDKLTNKEIP
+                     ASFKRPFRRIEQHRKHVIGDYKSNLLEDVVKNMHVNDVQEVEKNSKKLLEYVYDINRK
+                     YNTNLLYVSGAREAADHGFTVGALMNFKYRYNVKIYSELLLGKKGYIDIVLLVRGNKR
+                     VKDAIPILIEMRTGQAQRGRANPKHALMDAESYSKGLQQNSMPFVTYAEQVVRIGFNM
+                     DYAHPIEASVASLQPPTPIIRTIFESINSGNVGQERLNDIKTIIIDQLKKTYNLLPGT
+                     TGSGEGQHLSRSFIGHSILNSVELIGKKIEKRVFTHHQLKRSASRKPVDPIITTVVFV
+                     ERTTEGRNAGNNRVLIVHFHESGRSDIDDAILKIPLDRIQGLIQANCKEIIEVYVDAR
+                     SDGKSSLKFLGEGNEVRIRDVTSSVNDYFGANNARHWKMHNMPDSNQVENLRNAFDAA
+                     VKYQIRKDTDNKADLGDYKKLFADMGKILFPLKSLIKSEAEFQAVVSELLNSYSDLNF
+                     GQGDFRINIRREFQVGGGGRIDLLISIIGRDSSAYDILIGLELKYGITVNEVRKLIEE
+                     AVSEQIVWYGKSPNIKAMTEENKVATLAVGFTQDAKDSNSLIITNEKFVVYDVSHSSL
+                     TVISHRNVADVGRRISQSSIASMSQDNTQGLYLEKATREGTYDYWLQQHDVADIARIE
+                     YGYGTDTANTIFEVVGAPEHLNNQIEQFKTRVEQGEKRPLTLVVNLNNNHWVTLVIAR
+                     QNGQYNGYYIDSLGIPVQDNIKQVLQQSQVNYKDIGIGPQQTDGHNCGLWALENARDI
+                     NVILQEDMDVALEFARKQLDKSGERGEEYFKNKRQDISTRLDADQERRNNVQNIIGAG
+                     SSVDSQVSSAGCLSGGRSRRSVNGCLYSWEDVDNFNANKKDPRNVDEITIDAQKFLEY
+                     TKNVNDKSKNAQLLSLARERIAASSDNIVGEYKPLLSDVVSDGGYENYKRNERIQYLA
+                     DDFLSNNVPGVNSRLKQKLFNAAGRIQLIRGIHGTIVSCKDGTTRDCALSVSGLGYAF
+                     LAQPIENVMVKVTPKIVGSAGKFAGKFVPRILGHNTKFAVHFLGAKYGTRIAKGVAGA
+                     AAGIFDIVEIGISGAALANCTKRANTNDPCSDKEIRDNIASISFSSVSFVAGIILTAA
+                     GAPLAATGVGLGLMIGYGIYSGVSNIIEYEEKYDTTHDENWRLFWHTFLLQKPPRDLL
+                     HLAARQDAVNNIVLEAWKNLEASPNNIVAYGIGLGAIKFSSITQCRTEQRLAYQPFPD
+                     EELGVKAYRGFYNETICEIREVPVNHPATSKIHMYQQNADTGNLSRVLPKPIENATMV
+                     CLPEITGADYEKGIKKSVSTAVHYCNNAVVMVHDHRKQQQSNDGDQWGIFDLRLINNG
+                     LIGGSNILNNIFVLFEGAPIIIGGDNVNNEFIFNNDTFLGAIILGDNATNTLDMRALT
+                     SDVVEFNLNFHFNCIYNASYHINNDSYYYINVFGEKTIKGRPVAH"
+     gene            complement(97524..99368)
+                     /locus_tag="RhooCS_00747"
+     CDS             complement(97524..99368)
+                     /locus_tag="RhooCS_00747"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00747"
+                     /translation="MKRAEMVANLKQEQAANKLYQEAKKMLHKAWELAIAKADDKYNK
+                     EVEAKFYEVKNKLAEADALVPSNSEYKKWSVVERFLASSVAEDDPYCDVKRFEIKKWF
+                     EYYTGFLNKRITYPSDYTVEVIYKILSYNECWSGSELNRAAVAKKLIISKRWDGEPLE
+                     DSLKRYHIACQFCLESDINGILDSRKEIGTIERFIHLAISSNKLSAFWCYYTNIVNVE
+                     TPNPDLVNKFKQLAGDINDKQVLYKYGIDSAVAVGSKEAVEFFWKKLPNKDPKILFEA
+                     AIKTPNNYGPDDSYIVAFCIDQLDSYEQPELFRKLMREDFIKSAHGRSHVMIRLREGF
+                     YEHLEKVIKYLKPSDFPREEYEMLTWRTCKNIVSGPKALFDQAVQFLSWLWDLPGFES
+                     HRQHFQDSVETTSSALGDLINIGVLEPVHKILDSMDTLHTKLFTLTCSEGGNVCYSLY
+                     IQNEKELLQKLLGSIKTTIKKSTNKFLEKSDQEVLEKLESVLTKQAAKSDNQEQKNIN
+                     ISGDDVSVSLQAFNFYKQYDRQSLEKLLYNAFGDTKGEKLLQKIDQAMLGKLNNMISN
+                     TQKSYKESLFYNSSDSDHHDNPQDDSSDLSDSSVLVMGEGDNSEFTSS"
+     gene            complement(99722..100387)
+                     /gene="rsh_2"
+                     /locus_tag="RhooCS_00748"
+     CDS             complement(99722..100387)
+                     /gene="rsh_2"
+                     /locus_tag="RhooCS_00748"
+                     /EC_number="2.7.6.5"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q57E90"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="GTP pyrophosphokinase rsh"
+                     /protein_id="Prokka:RhooCS_00748"
+                     /translation="MVTQSSKEKFIIDCRYSKRLIDKLLSINRKSKIKVDFNKIKKAI
+                     YFAKEYHDKQKRGTGEPYYFHPLEVAYIVADYVFRTNVIITAILHDCIEDTILTKEII
+                     AQEFGNKVAGQVEDLTRIKQNSKISSAEIVKILYQQNKKDLLLVKLCDRLHNMQTIKA
+                     KSPEKVWKTTFETLQIFLALAAYLKMPKIAQQLEQHCWNVISSYKMLQNKLLLQECND
+                     LRY"
+     gene            complement(100465..101433)
+                     /gene="rcsD_1"
+                     /locus_tag="RhooCS_00749"
+     CDS             complement(100465..101433)
+                     /gene="rcsD_1"
+                     /locus_tag="RhooCS_00749"
+                     /EC_number="2.7.2.-"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="protein motif:HAMAP:MF_00980"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Phosphotransferase RcsD"
+                     /protein_id="Prokka:RhooCS_00749"
+                     /translation="MAINNENQQKDLNKLENFIKHNWQIQLSPIFVTLIPSSESVSNQ
+                     KATQVDLVTHYADIIKYKLELEEVTNKLKQVECVKRDLIQSIIYGLKIPCNKIFALVA
+                     LLHEIEDDLQKQDCLASIVDFIQELLDYYDKLSNNLCSNNGLIPIVLKRFDPQQLVNK
+                     IIDKALPIAQHKGLNLSCNFQYDITNSVISDSYRIQAILEQLIDNSIKFTNQGNVVVT
+                     VNMFAISPALSESEQNKREMVLQFIVHDTGIGLSREIQEYLRKEFDGFDIQYEELVSG
+                     LSFVKRLIDELHGEIEVTSTKGKSSTITCNIPVKLPLLDDVLYDDN"
+     gene            101816..102616
+                     /gene="dpnM_1"
+                     /locus_tag="RhooCS_00750"
+     CDS             101816..102616
+                     /gene="dpnM_1"
+                     /locus_tag="RhooCS_00750"
+                     /EC_number="2.1.1.72"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P04043"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Modification methylase DpnIIA"
+                     /protein_id="Prokka:RhooCS_00750"
+                     /translation="MSVNNFNKAQPFLQWVGGKRKIIDQLVKFIPAKLNNYYEPFLGG
+                     GALFFQVRDKFKHCFLSDINLELVTSYNAIKKNPNEVSKLLDSYKEKHSKEHYYQVRN
+                     NNDSNDPAKITARFIYLNRYSFKGIYRINIDGKPAQTFSGRNYNKFDIAIRLKQCSSL
+                     LAGASICAMDFSFIEPQKNDFVYFDPPYHKSGEKFYTRLPFDESEQTRLRDFAAELND
+                     KNVKIMISNSDTPFIRNLYKNFNINTIKVKYSMPEHNKMSDEVIITNY"
+     gene            complement(102656..104323)
+                     /locus_tag="RhooCS_00751"
+     CDS             complement(102656..104323)
+                     /locus_tag="RhooCS_00751"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="Prokka:RhooCS_00751"
+                     /translation="MHTICCSHFTSDCATHNFDDQNSIIFYNFVGNFVPPEWSTLSSH
+                     NGKILSKTARQLLSLIVFRMQIYYNNSINELQETYHFFEEHLGVCQERVRQCLIELKK
+                     SGFIEVYKATIVKYGIKCRNTPCIKLIKNFQPASSKIPSENEKNFPPTPKKFGVKPKE
+                     ILPQPQKTLDETIYIDNNKNISNKSRSSESTILKNEIDQNEQLSQHSQFATKKSVNDQ
+                     QESKQPATSGNNFIIGPLQINKTFQAILDKVNHARCEQASLANNNSAVRDTKHNGWFK
+                     RKKLADFYPLSQEDADLLQIKSNREFNLDFINKLLLKLAGEYSNHHFGHKKVLLNYMA
+                     KALAHELRETTKANCEQFQFKSSNVNKNKEQYLDKIESSFDTSKQAQLKRKIIGSFDP
+                     DSAYELLSSCLFIGVVGNRYQIKLLKTIMLSENAQDKILQQVQMIYGQAVKQLEIIPC
+                     AKLEVKQNNTEDEKQTYLLQLSKQLNPDSVWYRARKFLIERYNQYIDYGVLSKLVVVE
+                     EDAINKKVILKSISAFNDYYIRNRHMQDLEEAFAAQGFTFELIKFQR"
+     gene            complement(104463..104539)
+                     /locus_tag="RhooCS_00752"
+     tRNA            complement(104463..104539)
+                     /locus_tag="RhooCS_00752"
+                     /product="tRNA-Val"
+                     /inference="COORDINATES:profile:Aragorn:001002"
+                     /note="tRNA-Val(gac)"
+     gene            104799..105458
+                     /gene="cmk"
+                     /locus_tag="RhooCS_00753"
+     CDS             104799..105458
+                     /gene="cmk"
+                     /locus_tag="RhooCS_00753"
+                     /EC_number="2.7.4.25"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P0A6I0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Cytidylate kinase"
+                     /protein_id="Prokka:RhooCS_00753"
+                     /db_xref="COG:COG0283"
+                     /translation="MVDLKTKAFDISKNFTISLDGPAASGKGTIGLILAKNFSLKYFQ
+                     SSIVYRQLAFDCINQKIDVTDIDEVIALSKELKLDNNFDLENEDIGNIASQIAVISEV
+                     RNNLNKYLINLVKTTPRIIMEGRDIGTVVAPDADLKIFITANPQIRAERRYKQLQAKG
+                     KTCILDEILRQIILRDKRDKERKAAPLLPASDALIIDTSELSAIEVVEEVTNYIKNKI
+                     T"
+     gene            105827..107530
+                     /gene="rpsA"
+                     /locus_tag="RhooCS_00754"
+     CDS             105827..107530
+                     /gene="rpsA"
+                     /locus_tag="RhooCS_00754"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q6NDP1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="30S ribosomal protein S1"
+                     /protein_id="Prokka:RhooCS_00754"
+                     /db_xref="COG:COG0539"
+                     /translation="MSIKLKQRFVPQLAAINHEFEEDFSKMLETVDTSHIKEKTVVKG
+                     QVIEIKNDMVIVDVGLKNEGRIPKSEFLALPEVGDVVEVFIEKIEGRNGRTILSREKA
+                     VKEELWGQLEIMCSKGEFVDGTIFGRVKGGFIVDLSGVVAFLPGSQVDIRPIKDPTSI
+                     MNIKQPFKILSMDKKLGNIVVSRRAILEESRSEARDEMLSKIKEGMVLKGTVKNITDY
+                     GAFIDLGSVDGLLHLTDISWGRVNHPSEVLEFNQKVKVMVIKFDEKTKRISLGIKQLD
+                     SNPWEAIKEEFPVGKKMTGKVTNFADYGVFIELRDGLEGLVHSSEISWLKSNQNPRKT
+                     LTIGQEVEFVVLEVDTEKHRVSLSIKQCQENPLIKFAENNPVGTIIKAPIRNITDFGI
+                     FVALGNNIDGMIHEGDISWEDKGTDLLKSYKKGDEIECKVLAINIEKEQVSLGIKQLS
+                     PNPYQEISNEYKKGTIVKALITEIKDDGLEVLLNNKVAGFIKKAELSDEKDEQKPEMF
+                     KIDEEIEAKVTSIEKSGRILLSVKAHKIAERQKALKEYGSSDNTTNMGDILANALEDK
+                     K"
+     gene            107773..108366
+                     /gene="clpP"
+                     /locus_tag="RhooCS_00755"
+     CDS             107773..108366
+                     /gene="clpP"
+                     /locus_tag="RhooCS_00755"
+                     /EC_number="3.4.21.92"
+                     /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:P0A6G7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ATP-dependent Clp protease proteolytic subunit"
+                     /protein_id="Prokka:RhooCS_00755"
+                     /db_xref="COG:COG0740"
+                     /translation="MSYVPIVIEQTSCGERAYDIYSRLLKERIIFVCSTVEDHMANLI
+                     VAQLLFLEAENPKKDIYMYINSPGGVVTAGLAIYDTMQYIKPKVATLCIGQACSMGSL
+                     LLCGGEKGMRYSLPHSRIMIHQPSGGYKGQATDIEIHAQETLKIKRLLNELYSKHTGQ
+                     ELKHIEKSMERDNFMSPEEAKKFGIIDNIISSRDAIA"
