@@ -4,7 +4,7 @@
 
 First, an information matrix is a prerequisited for drawing cifA and cifB. This matrix must include the total gene length, the start and end positions of each domain, and positions of ORF-disturbing mutations. The cifA and cifB matrices constructed for this study are attached to this GitHub repository in `cifA.txt` and `cifB.txt`. In `cifA.txt`, 'Apopt' is the abbreviation for the Apoptosis regulator-like domain and 'RNA' stands for the RNA-binding-like domain. 'STOP' correspond to the ORF-disturbing mutation codons. Same for the `cifB.txt` where 'OTU' stands for the OTU-like cysteine protease, 'AAA' for the AAA-ATPases-like, 'IPPDE' for the PD-(D/E)XK nuclease N-terminal, 'IIPDDE' for the PD-(D/E)XK nuclease C-terminal, 'TPR' for the TPR repeats, 'DUB' for the Deubiquitinase DUB domain, 'TOXIN' for the Pore forming toxin TcdA/TcdB domain, 'DUF' for the DUF3491 domain, 'RTX' for the RTX toxin, 'SAL' for the salivary-gland toxin, 'ANK' for the Ankyrin repeat domains and 'LATRO' for the Latrotoxin domain.
 
-Then, these two matrices are imported into RStudio v4.3.1 (http://www.rstudio.com/):
+Then, these two matrices are imported into `RStudio v4.3.1` (http://www.rstudio.com/):
 ```
 CIFA <- read.table("cifA.txt",sep="\t",dec=",",header =T,row.names=NULL)
 CIFB <- read.table("cifB.txt",sep="\t",dec=",",header =T,row.names=NULL)
@@ -17,7 +17,7 @@ library(cowplot)
 library(gridExtra)
 ```
 
-Here is the command to create a plot specifically for the different cifA ORF. Briefly, we first draw a line corresponding to the length of the cifA ORF for each symbiont, then we add the specific domains for each cifA ORF as well as the ORF-disturbing positions, and finally, we set the titles and theme for better representation:
+Here is the command to create a plot specifically for the *cifA* genes. Briefly, we first draw a line corresponding to the length of the *cifA* for each symbiont, then we add the specific domains for each *cifA* as well as the ORF-disturbing positions, and finally, we set the titles and theme for better representation:
 ```
 plot_CIFA<-ggplot(CIFA) +
   geom_segment(aes(x = start, xend = end, y = fragment, yend = fragment), color = "black", size = 1) +
@@ -38,7 +38,7 @@ plot_CIFA<-ggplot(CIFA) +
         axis.line.x = element_line(color = "black", size = 0.5))
 ```
 
-The cifB commands are similars:
+The *cifB* commands are very similars:
 ```
 plot_CIFB<-ggplot(CIFB) +
   geom_segment(aes(x = start, xend = end, y = fragment, yend = fragment), color = "black", size = 1) +
@@ -75,7 +75,7 @@ plot_CIFB<-ggplot(CIFB) +
         axis.line.x = element_line(color = "black", size = 0.5))
 ```
 
-Finally, we combine the cifA and cifB of each symbiont on the same plot and add a scale to visualize the length of the two genes:
+Finally, we combine the *cifA* and *cifB* of each symbiont on the same plot and add a scale to visualize the length of the two genes:
 ```
 max_length <- max(max(CIFA$end), max(CIFB$end))
 plot_CIFA <- plot_CIFA + 
@@ -90,11 +90,11 @@ combined_plot <- plot_grid(plot_CIFA, plot_CIFB, ncol = 2, align = "v")
 print(combined_plot)
 ```
 
-For the final plot, we can merge the cif operon phylogeny (see the directory part.5) and arrange *cifA-cifB* according to their phylogenetic placement.
+For the final plot, we can merge the *cif* operon phylogeny (see the directory part.5) and arrange *cifA-cifB* according to their phylogenetic placement.
 
 
 ## 2. Drawing of RAGE and WO prophage environments
-First, using the Prokka annotation, database searches in RAGE and WO with OrthoFinder and blastP (see the directory part.3), we created a table grouping key information about syntenic gene environments bordering *cifA-cifB*. An example of this table, named `Environment.txt`, is provided for two typical *cifA-cifB* environments: RAGE and WO prophages. eg. (i) *Rickettsia hoogstraalii* strain CS carry *cif* operon in a RAGE module on contig29 (see `RhooCS.gbk` for full genome annotated raw data Prokka file, or `RhooCS_29.txt` for contig29 only), (ii) *Mesenet longicola* strain GL2 carry *cif* operon in a WO prophage or WO-like island on contig9 (see `MesenetGL2.gbk` for full genome annotated raw data Prokka file, or `MesenetGL2_9.txt` for contig9 only). 
+First, using the Prokka annotation, followed by database searches in RAGE and WO with OrthoFinder and blastP, we created a table grouping key information about syntenic gene environments bordering *cifA-cifB*. An example of this table, named `Environment.txt`, is provided for two typical *cifA-cifB* environments: RAGE and WO prophages. eg. (i) *Rickettsia hoogstraalii* strain CS carry *cif* operon in a RAGE module on contig29 (see `RhooCS.gbk` for full genome annotated raw data Prokka file, or `RhooCS_29.txt` for contig29 only), (ii) *Mesenet longicola* strain GL2 carry *cif* operon in a WO prophage or WO-like island on contig9 (see `MesenetGL2.gbk` for full genome annotated raw data Prokka file, or `MesenetGL2_9.txt` for contig9 only). 
 The `Environment.txt` table indicates the distinct ORFs identified by Prokka ('Prokka_name') and their correspondance in the RAGE/WO databases ('Gene'). Regarding the two examples, contig29 of *R. hoogstraalii* CS contains 92 ORFs (only 56 are presented in the `Environment.txt` table); contig9 of *M. lonficola* GL2 hold 22 ORFs (all presented in `Environment.txt`).
 
 We develop a specific R script capable of (i) reading the `RhooCS_29.txt` and `MesenetGL2_9.txt` files (derived from `RhooCS.gbk` and `MesenetGL2.gbk`),  extracting key information such as the number of ORFs, ORF lengths, distances between ORFs, and coding strand orientation, and (ii) reading the `Environment.txt` table to compare Prokka annotation names from `RhooCS_29.txt` and `MesenetGL2_9.txt` with their corresponding entries in the RAGE/WO databases. Finally, this script generates a genomic plot of the selected contigs (see `plot_examples.png`), highlighting *cif* operons and their neighboring RAGE or WO prophage environments.
