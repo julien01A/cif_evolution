@@ -176,7 +176,7 @@ synthetic_gene_matrix_merged$Fonction[synthetic_gene_matrix_merged$Fonction == "
 print(synthetic_gene_matrix_merged)
 ```
 
-Prepare different parameters to create a graphical representation from the synthetic_gene_matrix_merged: Indicate and apply the colors of your choice to the genes and adjust the genes on each contig (The example here is for genes composing RAGE, we adjust it for the Wo prophages).
+Prepare different parameters to create a graphical representation from the synthetic_gene_matrix_merged: Indicate and apply the colors of your choice to the genes and adjust the genes on each contig (The example here is for genes composing RAGE, we adjust it for the WO prophages).
 ```
 color_map <- c(
   "TraA" = "#009933",
