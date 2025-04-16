@@ -15,7 +15,7 @@ Each OrthoFinder analysis outputs a tabular `Orthogroups.tsv` file indicating th
 
 Once a protein from genomes confidently matches a *cifA* query (true positive), the downstream protein usually also aligns perfectly with a *cifB*, thereby enhancing the reliability of the detection of a novel *cifA-cifB* operon.
 
-We provide an example of `Orthogroups.tsv` for the screening of *cifA* for some Rickettsia and Tisiphia genomes (Annoted `REBerCha`, `RECanRuf`, etc). The first sheet contains the raw Orthofinder outputs; the second sheet displays a filtered view showing only the potential orthogroups for *cifA*. The MAFFT alignment step was then performed, with false positives highlighted in yellow and true positives in green. JPEG images are also included.
+We provide an example of `Orthogroups.tsv` for the screening of *cifA* for some Rickettsia and Tisiphia genomes (Annoted `REBerCha`, `RECanRuf`, etc). The first sheet contains the raw Orthofinder outputs; the second sheet displays a filtered view showing only the potential orthogroups for *cifA*. The MAFFT alignment step was then performed, with false positives highlighted in yellow and true positives in green. PNG images of the two sheets are also included.
 
 
 ## Protein domain prediction
