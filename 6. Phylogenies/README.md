@@ -25,7 +25,7 @@ orthofinder -f ./OrthoFinder_genomes/ -t 4 -S blast
 ```
 with `OrthoFinder_genomes` a directory containing corresponding `.faa` files obtained from Prokka. 
 
-For each SCO, sequences were individually aligned using `MAFFT v7.450` (<https://github.com/GSLBiotech/mafft>, doi: <https://10.1093/molbev/mst010>):
+For each SCO, sequences were individually aligned using `MAFFT v7.505` (<https://github.com/GSLBiotech/mafft>, doi: <https://10.1093/molbev/mst010>):
 ```
 for file in /Single_Copy_Orthologue_Sequences/*
 do mafft "$file" > "$file"
