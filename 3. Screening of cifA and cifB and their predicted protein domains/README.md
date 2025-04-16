@@ -18,4 +18,7 @@ Once a protein from genomes confidently matches a *cifA* query (true positive), 
 
 ## Protein domain prediction
 
+The final predicted protein domains of all the *cifA* and *cifB* sequences identified in this study are provided in the `Predicted_protein_domains_databases` directory of this GitHub section. The corresponding abbreviations are indicated in the S2 table. The detailed locations (in amino acids coordinates) of the predicted domains on each *cifA* or *cifB* sequences are precised in `cifA_cifB.xlsx`, `cifA.txt` and `cifB.txt` files available in the part.5 section of this GitHub.
+This protein domain database can serve to identify specific domain presence in new *cifA* and *cifB* sequences, or also be used as queries to identified specific genes (eg. build specific HMM profiles).
 
+For all cifA or cifB newly identified sequences we both used (i) the HHpred webserver (<https://toolkit.tuebingen.mpg.de/tools/hhpred>, doi: <https://10.1093/nar/gki408>) using default parameters querying SCOPe70 (v.2.08), Pfam-A (v37.0), SMART (v6.0), and COG/KOG (v1.0) databases, and (ii) specific alignments of each protein domain databases generated progressively as the analyses advanced (the initial versions of this database were composed of *Wolbachia* *cif*-domain sequences from Martinez et al., doi: <https:/10.1093/molbev/msaa209>)". The specific alignments were performed with `Clustal Omega v1.2.2` (doi: <https://doi.org/10.1002/pro.3290>) implemented on `UGENE v52.0` (<https://ugene.net/>, doi: <https://10.1093/bioinformatics/bts091>).
