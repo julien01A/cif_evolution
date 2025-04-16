@@ -162,7 +162,7 @@ synthetic_gene_matrix <- synthetic_gene_matrix[, c("fragment", "fragment_size", 
 print(synthetic_gene_matrix)
 ```
 
-Then, for each ORF in the matrix, the script adds its corresponding RAGE gene or WO prophage by comparing it with the information in the 'environment.txt' table. A new synthenic matrix with RAGE or WO gene informations is provided.
+Then, for each ORF in the matrix, the script adds its corresponding RAGE gene or WO prophage by comparing it with the information in the `environment.txt` table. A new synthenic matrix with RAGE or WO gene informations is provided (See `synthenic_gene_matrix_merged.xlsx` as example).
 ```
 environment_table <- read.delim(".../environment.txt", header = TRUE, sep = "\t")
 environment_table <- environment_table[, c("Gene", "Prokka_name")]
@@ -176,7 +176,7 @@ synthetic_gene_matrix_merged$Fonction[synthetic_gene_matrix_merged$Fonction == "
 print(synthetic_gene_matrix_merged)
 ```
 
-Prepare different parameters to create a graphical representation from the synthetic_gene_matrix_merged: Indicate and apply the colors of your choice to the genes and adjust the genes on each contig.
+Prepare different parameters to create a graphical representation from the synthetic_gene_matrix_merged: Indicate and apply the colors of your choice to the genes and adjust the genes on each contig (The example here is for genes composing RAGE, we adjust it for the Wo prophages).
 ```
 color_map <- c(
   "TraA" = "#009933",
