@@ -19,7 +19,7 @@ Finally, the phylogenetic tree was visualized and adapted using `figtree` (<http
 
 We made the whole genome phylogenies of the Rickettsiaceae family and the *Rickettsiella* genus. The methodology used is very similar to that described for basic phylogenies, but it requires a few additional steps upstream for the preparation of the `ALIGNMENT.faa` file.
 
-First, single-copy orthologs (SCOs) were identified using `OrthoFinder v2.3.11` (<https://github.com/davidemms/OrthoFinder>, doi: <https://10.1186/s13059-019-1832-y>):
+First, single-copy orthologs (SCOs) were identified using `OrthoFinder v2.5.4` (<https://github.com/davidemms/OrthoFinder>, doi: <https://10.1186/s13059-019-1832-y>):
 ```
 orthofinder -f ./OrthoFinder_genomes/ -t 4 -S blast 
 ```
