@@ -7,7 +7,7 @@ This GitHub page shares the command lines and additional data used in this study
 The page is divided as follows: 
 
 #### 1. Assembling of new genomes and collection of publicly available genomes
-This section provides details about the methods used to assemble the eight *Rickettsia* genomes from metagenomes of tick organs (assembly, correction, and alignment command lines).
+This section provides details about the methods used to assemble the eight *Rickettsia* genomes from metagenomes of tick organs (assembly, correction, binning, taxonomic assignation, genome representations, etc.).
 
 #### 2. Genome annotation
 This step analyzes gene boundaries and provides structural context for each genome using the Prokka annotation tool.
