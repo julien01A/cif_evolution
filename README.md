@@ -2,7 +2,7 @@
 
 Amoros J, Buysse M, Floriano AM, Moumen B, Vavre F, Bouchon D, Duron D
 
-This GitHub page shares the command lines and additional data used in this study. It is organized according to the typical workflow used to screen *cifA-cifB* genes from `.fasta` bacterial genome files retrieved from new assemblies or public databases, verify the presence of *cif* genes, determine their flanking genetic environment, visualize the results, and perform phylogenetic analyses to place each element in an evolutionary context.
+This GitHub page shares the command lines, scripts and additional data used in this study. It is organized according to the typical workflow used to screen *cifA-cifB* genes from `.fasta` bacterial genome files retrieved from new assemblies or public databases: verify the presence of *cif* genes, identify their protein domains, determine *cif* flanking genetic environment, visualize the results, and perform phylogenetic analyses to place each element in an evolutionary context.
 
 The page is divided as follows: 
 
