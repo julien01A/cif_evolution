@@ -5,9 +5,9 @@
 Organ metagenomes were sequenced for eight individual or pool of ticks. Eight Rickettsia genomes were de novo assembled (one by organ metagenome): (i) *Rickettsia lusitaniae* strain R-Oe isolated from *Ornithodoros erraticus*, (ii) *R. vini* strain IarboMS4 isolated from *Ixodes arboricola*, (iii) *R. raoultii* strains Dreti_100P and Dreti_100F isolated from *Dermacentor reticulatus*, and (iv) *Rickettsia sp.* strains AdisF19, AdisM1, AdisP2, and AdisP3Sn isolated from *Amblyomma dissimile*.
 
 Three different sequencing and assembling methods were used depending on metagenomes. Below, we present the three methods:
-Method 1. *Rickettsia lusitaniae* strain R-Oe
-Method 2. *R. vini* strain IarboMS4, *R. raoultii* strains Dreti_100P and Dreti_100F, *Rickettsia sp.* strains AdisF19, AdisM1 and AdisP3Sn
-Method 3. *Rickettsia sp.* strain AdisP2
+#### Method 1. *Rickettsia lusitaniae* strain R-Oe
+#### Method 2. *R. vini* strain IarboMS4, *R. raoultii* strains Dreti_100P and Dreti_100F, *Rickettsia sp.* strains AdisF19, AdisM1 and AdisP3Sn
+#### Method 3. *Rickettsia sp.* strain AdisP2
 
 ### Method 1
 
