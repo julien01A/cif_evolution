@@ -81,11 +81,6 @@ To assemble these metagenomes and reconstruct the *Rickettsia* genomes present, 
 In *Rickettsia sp.* strains AdisF19 and AdisM1, plasmids were identified through visual inspection of the assembly graph using `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>). Contigs forming connected subgraphs with a total length compatible with known *Rickettsia* plasmids, were flagged as candidate plasmids. A `BLAST` search was performed against the NCBI database. Hits specific to *Rickettsia* plasmid sequences confirmed the plasmidic nature of the contigs. Based on distinct coverage values, lengths, and gene content, the plasmid candidates were retained as separate from chromosomal scaffolds.
 
 ### Method 3
-**POUR MARIE**
-Sequencing:  MinION device (R9.4.1 flow cell)
-Flye (v2.9) 
-Medaka (v1.2.2) 
-BUSCO (v5.3.2) 
 
 The organ metagenome of *A. dissimile* was sequenced using Oxford Nanopore long-read technology on a MinION device (R9.4.1 flow cell).
 
