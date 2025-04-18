@@ -11,8 +11,6 @@ Method 3. *Rickettsia sp.* strain AdisP2
 
 ### Method 1
 
-**POUR MARIE**
-
 The organ metagenome of *O. erraticus* was sequenced using Illumina short-read technology on a HiSeq 2500 platform.
 
 Reads were assembled using `MEGAHIT (v1.2.9)` (<https://github.com/voutcn/megahit>, doi: <https://10.1093/bioinformatics/btv033>): 
