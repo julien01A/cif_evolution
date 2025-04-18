@@ -73,23 +73,21 @@ FastaToTbl bin.fa | grep -wf contigsID_to_remove.txt | TblToFasta > bin_checked.
 After this step, the curated bin was considered the final *R. lusitaniae*, called strain R-Oe, and was used for downstream analyses in the rest of the study.  
 
 ### Method 2
+Here, tick organ metagenomes were sequenced using Illumina short-read technology on a HiSeq 2500 platform for *I. arboricola* and NovaSeq 6000 platform for *D. reticulatus* and *A. dissimile*.
 
-**POUR MARIE**
-Sequencing: Illumina HiSeq 2500 platform for *R. vini* strain IarboMS4, Illumina NovaSeq 6000 platform for *R. raoultii* strains Dreti_100P and Dreti_100F, *Rickettsia sp.* strains AdisF19, AdisM1 and AdisP3Sn
-A modifief version of the original Blobology pipeline (<https://github.com/blaxterlab/blobology>, doi: <https://10.3389/fgene.2013.00237>) was used. See the details in the following GitHub page (<https://github.com/annamariafloriano/RickettsiellaComparative>). 
-This pipeline includes:
-SPAdes (doi: <https://doi.org/10.1089/cmb.2012.0021>) -> assembling
-bowtie2 (doi: <https://doi.org/10.1038/nmeth.1923>)
-samtools (doi: <https://doi.org/10.1093/bioinformatics/btp352>).
-Bandage (v0.8.1) (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>)
-QUAST (v4.6.3)and miComplete (v1.1.1, -hmms Bact105) -> quality check
+To assemble these metagenomes and reconstruct the *Rickettsia* genomes present, we used a modified version of the `Blobology` pipeline (<https://github.com/blaxterlab/blobology>, doi: <https://10.3389/fgene.2013.00237>). For each metagenome, reads were assembled using `SPAdes` to generate contigs (<https://doi.org/10.1089/cmb.2012.0021>). *Rickettsia*-related contigs were filtered based on GC content (typically ranging from 0.20 to 0.45), coverage depth (ranging from 10× to 150×), and BLAST-based taxonomic assignment. Reads mapping to the selected contigs were extracted and reassembled to improve genome quality. `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>) was used to visualize the assembly graph and guide manual extraction and inspection of *Rickettsia*-related contigs. Binning was performed manually by clustering candidate contigs. All details regarding pipeline modifications and analysis steps are available here: <https://github.com/annamariafloriano/RickettsiellaComparative>.
+
+### Plasmid identification
+In *Rickettsia sp.* strains AdisF19 and AdisM1, plasmids were identified through visual inspection of the assembly graph using `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>). Contigs forming connected subgraphs with a total length compatible with known *Rickettsia* plasmids, were flagged as candidate plasmids. A `BLAST` search was performed against the NCBI database. Hits specific to *Rickettsia* plasmid sequences confirmed the plasmidic nature of the contigs. Based on distinct coverage values, lengths, and gene content, the plasmid candidates were retained as separate from chromosomal scaffolds.
 
 ### Method 3
 **POUR MARIE**
-Sequencing: Oxford Nanopore MinION device (R9.4.1 flow cell)
+Sequencing:  MinION device (R9.4.1 flow cell)
 Flye (v2.9) 
 Medaka (v1.2.2) 
 BUSCO (v5.3.2) 
+
+The organ metagenome of *A. dissimile* was sequenced using Oxford Nanopore long-read technology on a MinION device (R9.4.1 flow cell).
 
 *De novo* assembly was performed from long-reads using `Flye` (<https://github.com/fenderglass/Flye>, doi:<https://10.1038/s41592-020-00971-x>), as follows:
 ```
@@ -103,11 +101,21 @@ samtools faidx assembly.fasta
 module load bioinfo/medaka/1.5
 medaka_consensus -i $ech_porechopped_all.fq.gz -d assembly.fasta -m r941_min_fast_g303 -o Flye-Medaka -t 4
 ```
-The identification of the *Rickettsia* AdisP2 genome is based on the taxonomic assignation of the 16S rDNA sequence of a circular contig visualized with `Bandage(v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>) (assignation based on the online NCBI BLAST tool). 
-**After this step, the contig is considered as XXX MAG, designated as `XXX`.**
+The identification of the *Rickettsia sp.* strain AdisP2 genome is based on the taxonomic assignation of the 16S rDNA sequence of a circular contig visualized with `Bandage(v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>) (assignation based on the online NCBI BLAST tool). 
 
-## Plasmid identification
-In *Rickettsia sp.* strains AdisF19 and AdisM1, plasmids were identified through visual inspection of the assembly graph using `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>). Contigs forming connected subgraphs with a total length compatible with known *Rickettsia* plasmids, were flagged as candidate plasmids. A `BLAST` search was performed against the NCBI database. Hits specific to *Rickettsia* plasmid sequences confirmed the plasmidic nature of the contigs. Based on distinct coverage values, lengths, and gene content, the plasmid candidates were retained as separate from chromosomal scaffolds.
+## Quality check
+Quality and multiple statistics were accessed using miComplete (v1.1.1) (<https://pypi.org/project/micomplete/>, doi: <https://10.1093/bioinformatics/btz664>), Quast (v4.6.3) (<https://github.com/ablab/quast>, doi: <https://10.1093/bioinformatics/btt086>) and `BUSCO (v5.3.2)` (<https://github.com/metashot/busco>, doi: <https://10.1093/molbev/msab199>).
+
+```
+## With miComplete
+miComplete set.tab --hmms Bact105 #set.tab a tabular separated file containing per line both a path to each Rickettsia genomes and the type (here fna)
+## With Quast
+quast.py ./Rickettsia_genomes/* -o QUAST #a directory containing all the Rickettsia genomes
+## With BUSCO
+nextflow run metashot/busco \
+  --genomes './Rickettsia_genomes/*.fna' \
+  --outdir results
+```
 
 ## Genome visualization
 The eight *Rickettsia* genome representations were performed using the `Proksee` online tool (<https://proksee.ca/>, doi: <https://doi.org/10.1093/nar/gkad326>)
