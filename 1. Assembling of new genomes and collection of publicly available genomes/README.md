@@ -13,13 +13,13 @@ Three different sequencing and assembling methods were used depending on metagen
 
 The organ metagenome of *O. erraticus* was sequenced using Illumina short-read technology on a HiSeq 2500 platform.
 
-Reads were assembled using `MEGAHIT (v1.2.9)` (<https://github.com/voutcn/megahit>, doi: <https://10.1093/bioinformatics/btv033>): 
+Reads were assembled using `MEGAHIT (v1.2.9)` (<https://github.com/voutcn/megahit>, doi: <https://doi.org/10.1093/bioinformatics/btv033>): 
 ```
 megahit -1 $ech-R1.fastq.gz -2 $ech-R2.fastq.gz --k-list 59,77,99 -t 6 -o $ech-metaMEGAHIT
 ```
 where `$ech` is the sequencing output name.
 
-To retrieve the *R. lusitaniae* genome from the MEGAHIT meta-assembly contigs, we used `CONCOCT (v1.1.0)` (<https://github.com/BinPro/CONCOCT>, doi: <https://10.1038/nmeth.3103>) and the `anvi'o` pipeline (<https://anvio.org/>, doi: <https://10.1038/s41564-020-00834-3>) as follows: 
+To retrieve the *R. lusitaniae* genome from the MEGAHIT meta-assembly contigs, we used `CONCOCT (v1.1.0)` (<https://github.com/BinPro/CONCOCT>, doi: <https://doi.org/10.1038/nmeth.3103>) and the `anvi'o` pipeline (<https://anvio.org/>, doi: <https://doi.org/10.1038/s41564-020-00834-3>) as follows: 
 First, the contigs were renamed to match the requirements of `anvi'o`. 
 ```
 sed '/^>/s/ .*//' $ech-final.contigs.fa > $ech-final.contigs-rename.fa
@@ -65,7 +65,7 @@ anvi-estimate-scg-taxonomy -c $ech-metaMEGAHIT.db --output-file $ech-TAXONOMY.tx
 anvi-summarize -p $ech-PROFILE/PROFILE.db -c $ech-metaMEGAHIT.db -C bins -o $ech-SUMMARY 
 ```
 Let's see the `$ech-SUMMARY` file (html format) to check the taxnonomy results and some stats about the bins. Here is the `$ech-SUMMARY` file for the bin22 of *O.erraticus* which matched with one *Rickettsia* (next confirmed as *R. lusitaniae*): <https://user-images.githubusercontent.com/58982033/185303309-8845797a-9c10-4fc0-9d1f-adfdafc526ba.png>
-The contigs constituing the `bin22` were aligned using MAUVE (<https://darlinglab.org/mauve/mauve.html>, doi: <https://10.1101/gr.2289704>). Contigs that showed no homology with *Rickettsia* reference genomes were referenced. These contigs were then `BLAST` (<https://blast.ncbi.nlm.nih.gov/Blast.cgi>) against the NCBI database and those that didn't show sequence similarity with any *Rickettsia* representative were removed, as follows:
+The contigs constituing the `bin22` were aligned using MAUVE (<https://darlinglab.org/mauve/mauve.html>, doi: <https://doi.org/10.1101/gr.2289704>). Contigs that showed no homology with *Rickettsia* reference genomes were referenced. These contigs were then `BLAST` (<https://blast.ncbi.nlm.nih.gov/Blast.cgi>) against the NCBI database and those that didn't show sequence similarity with any *Rickettsia* representative were removed, as follows:
 ```
 FastaToTbl bin.fa | grep -wf contigsID_to_remove.txt | TblToFasta > bin_checked.fasta
 ```
@@ -75,16 +75,16 @@ After this step, the curated bin was considered the final *R. lusitaniae*, calle
 ### Method 2
 Here, tick organ metagenomes were sequenced using Illumina short-read technology on a HiSeq 2500 platform for *I. arboricola* and NovaSeq 6000 platform for *D. reticulatus* and *A. dissimile*.
 
-To assemble these metagenomes and reconstruct the *Rickettsia* genomes present, we used a modified version of the `Blobology` pipeline (<https://github.com/blaxterlab/blobology>, doi: <https://10.3389/fgene.2013.00237>). For each metagenome, reads were assembled using `SPAdes` to generate contigs (<https://doi.org/10.1089/cmb.2012.0021>). *Rickettsia*-related contigs were filtered based on GC content (typically ranging from 0.20 to 0.45), coverage depth (ranging from 10× to 150×), and BLAST-based taxonomic assignment. Reads mapping to the selected contigs were extracted and reassembled to improve genome quality. `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>) was used to visualize the assembly graph and guide manual extraction and inspection of *Rickettsia*-related contigs. Binning was performed manually by clustering candidate contigs. All details regarding pipeline modifications and analysis steps are available here: <https://github.com/annamariafloriano/RickettsiellaComparative>.
+To assemble these metagenomes and reconstruct the *Rickettsia* genomes present, we used a modified version of the `Blobology` pipeline (<https://github.com/blaxterlab/blobology>, doi: <https://doi.org/10.3389/fgene.2013.00237>). For each metagenome, reads were assembled using `SPAdes` to generate contigs (<https://doi.org/10.1089/cmb.2012.0021>). *Rickettsia*-related contigs were filtered based on GC content (typically ranging from 0.20 to 0.45), coverage depth (ranging from 10× to 150×), and BLAST-based taxonomic assignment. Reads mapping to the selected contigs were extracted and reassembled to improve genome quality. `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://doi.org/10.1093/bioinformatics/btv383>) was used to visualize the assembly graph and guide manual extraction and inspection of *Rickettsia*-related contigs. Binning was performed manually by clustering candidate contigs. All details regarding pipeline modifications and analysis steps are available here: <https://github.com/annamariafloriano/RickettsiellaComparative>.
 
 ### Plasmid identification
-In *Rickettsia sp.* strains AdisF19 and AdisM1, plasmids were identified through visual inspection of the assembly graph using `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>). Contigs forming connected subgraphs with a total length compatible with known *Rickettsia* plasmids, were flagged as candidate plasmids. A `BLAST` search was performed against the NCBI database. Hits specific to *Rickettsia* plasmid sequences confirmed the plasmidic nature of the contigs. Based on distinct coverage values, lengths, and gene content, the plasmid candidates were retained as separate from chromosomal scaffolds.
+In *Rickettsia sp.* strains AdisF19 and AdisM1, plasmids were identified through visual inspection of the assembly graph using `Bandage (v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://doi.org/10.1093/bioinformatics/btv383>). Contigs forming connected subgraphs with a total length compatible with known *Rickettsia* plasmids, were flagged as candidate plasmids. A `BLAST` search was performed against the NCBI database. Hits specific to *Rickettsia* plasmid sequences confirmed the plasmidic nature of the contigs. Based on distinct coverage values, lengths, and gene content, the plasmid candidates were retained as separate from chromosomal scaffolds.
 
 ### Method 3
 
 The organ metagenome of *A. dissimile* was sequenced using Oxford Nanopore long-read technology on a MinION device (R9.4.1 flow cell).
 
-*De novo* assembly was performed from long-reads using `Flye` (<https://github.com/fenderglass/Flye>, doi:<https://10.1038/s41592-020-00971-x>), as follows:
+*De novo* assembly was performed from long-reads using `Flye` (<https://github.com/fenderglass/Flye>, doi:<https://doi.org/10.1038/s41592-020-00971-x>), as follows:
 ```
 module load bioinfo/Flye/2.4.1
 flye --nano-raw $ech_porechopped_all.fq.gz --out-dir ./$ech-Flye --threads 12 --iterations 5 --meta --min-overlap 8000 --debug --genome-size 200000
@@ -99,7 +99,7 @@ medaka_consensus -i $ech_porechopped_all.fq.gz -d assembly.fasta -m r941_min_fas
 The identification of the *Rickettsia sp.* strain AdisP2 genome is based on the taxonomic assignation of the 16S rDNA sequence of a circular contig visualized with `Bandage(v0.8.1)` (<https://github.com/rrwick/Bandage>, doi: <https://10.1093/bioinformatics/btv383>) (assignation based on the online NCBI BLAST tool). 
 
 ## Quality check
-Quality and multiple statistics were accessed using miComplete (v1.1.1) (<https://pypi.org/project/micomplete/>, doi: <https://10.1093/bioinformatics/btz664>), Quast (v4.6.3) (<https://github.com/ablab/quast>, doi: <https://10.1093/bioinformatics/btt086>) and `BUSCO (v5.3.2)` (<https://github.com/metashot/busco>, doi: <https://10.1093/molbev/msab199>).
+Quality and multiple statistics were accessed using miComplete (v1.1.1) (<https://pypi.org/project/micomplete/>, doi: <https://doi.org/10.1093/bioinformatics/btz664>), Quast (v4.6.3) (<https://github.com/ablab/quast>, doi: <https://doi.org/10.1093/bioinformatics/btt086>) and `BUSCO (v5.3.2)` (<https://github.com/metashot/busco>, doi: <https://doi.org/10.1093/molbev/msab199>).
 
 ```
 ## With miComplete
@@ -117,4 +117,4 @@ The eight *Rickettsia* genome representations were performed using the `Proksee`
 
 ## Genomes from public database
 
-All the accession numbers of publicly available genomes analyzed in this study are listed in **Table S1** and retrievable on Genbank (<https://www.ncbi.nlm.nih.gov/datasets/genome/>), except few of them only available on publication supplementaries (<https://10.1093/sysbio/syv084>, <https://10.7717/peerj.5486>). `.fasta` files were retrieved for each genome and annotated with Prokka (see the next setion of the GitHub).
+All the accession numbers of publicly available genomes analyzed in this study are listed in **Table S1** and retrievable on Genbank (<https://www.ncbi.nlm.nih.gov/datasets/genome/>), except few of them only available on publication supplementaries (<https://doi.org/10.1093/sysbio/syv084>, <https://doi.org/10.7717/peerj.5486>). `.fasta` files were retrieved for each genome and annotated with Prokka (see the next setion of the GitHub).
