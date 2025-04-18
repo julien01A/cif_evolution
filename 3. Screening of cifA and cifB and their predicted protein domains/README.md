@@ -25,6 +25,6 @@ This protein domain database can now be used to identify the presence of specifi
 
 For all newly identified *cifA* and *cifB* sequences, we used two complementary approaches:
 (i) HHpred webserver (<https://toolkit.tuebingen.mpg.de/tools/hhpred>, doi: <https://10.1093/nar/gki408>) with default parameters, querying the SCOPe70 (v2.08), Pfam-A (v37.0), SMART (v6.0), and COG/KOG (v1.0) databases.
-(ii) Specific domain alignments using the database progressively built over the course of the study. The initial versions of this domain database were composed of *Wolbachia* *cif* domain sequences from Martinez et al. (DOI: <https://10.1093/molbev/msaa209>) and Gerth et al. (doi: <https://10.1099/mgen.0.000503>).
+(ii) Specific domain alignments using the database progressively built over the course of the study. The initial versions of this domain database were composed of *Wolbachia* *cif* domain sequences from Martinez et al. (doi: <https://10.1093/molbev/msaa209>) and Gerth et al. (doi: <https://10.1099/mgen.0.000503>).
 
 The specific alignments were performed using `Clustal Omega v1.2.2` (doi: <https://doi.org/10.1002/pro.3290>), implemented within `UGENE v52.0` (<https://ugene.net/>, doi: <https://10.1093/bioinformatics/bts091>).
