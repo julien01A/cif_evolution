@@ -9,8 +9,8 @@ The page is divided as follows:
 #### 1. Assembling of new genomes and collection of publicly available genomes
 This section provides details about the methods used to assemble the eight *Rickettsia* genomes from metagenomes of tick organs (assembly, correction, binning, taxonomic assignation, genome representations, etc.).
 
-#### 2. Genome annotation
-This step analyzes gene boundaries and provides structural context for each genome using the Prokka annotation tool.
+#### 2. Genome annotation and ANI
+This step analyzes gene boundaries and provides structural context for each genome using the Prokka annotation tool. We also give the command lines used to determine the ANI of each genus.
 
 #### 3. Screening of *cifA* and *cifB* and their predicted protein domains
 This part presents all the tools and command lines used to detect *cifA* and *cifB* genes and their predicted protein domains in bacterial genomes. The final *cifA* and *cifB* sequences, along with their predicted domains, used in this study are shared and can be used as queries to screen for *cif* presence in future genome analyses. 
