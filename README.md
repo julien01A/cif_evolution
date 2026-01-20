@@ -1,4 +1,4 @@
-# The diversity and spread of cytoplasmic incompatibility genes among maternally inherited symbionts: *Wolbachia* do not walk alone - GitHub page
+# The diversity and spread of cytoplasmic incompatibility genes among maternally inherited symbionts - GitHub page
 
 Amoros J, Buysse M, Floriano AM, Moumen B, Vavre F, Bouchon D, Duron D
 
